@@ -18,209 +18,33 @@
         tools:context=".viewMain.EntryFragment">
 
 
-        <GridLayout
-            android:id="@+id/gridLayout"
-            android:layout_width="300dp"
-            android:layout_height="200dp"
-            android:layout_marginBottom="5dp"
+        <ImageView
+            android:id="@+id/fotoImageV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:adjustViewBounds="true"
             app:layout_constraintBottom_toTopOf="@+id/slaytText"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent">
-
-
-            <ImageView
-                android:id="@+id/imageView26"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="0"
-                android:layout_column="1"
-                android:layout_gravity="center_vertical"
-                android:alpha="1"
-                android:src="@drawable/a" />
-
-            <ImageView
-                android:id="@+id/imageView27"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="0"
-                android:layout_column="2"
-                android:layout_gravity="center_vertical"
-                android:alpha="1"
-                android:src="@drawable/b"
-                android:visibility="gone" />
-
-            <ImageView
-                android:id="@+id/imageView28"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="0"
-                android:layout_column="3"
-                android:layout_gravity="center_vertical"
-                android:alpha="1"
-                android:src="@drawable/c"
-                android:visibility="gone" />
-
-            <ImageView
-                android:id="@+id/imageView29"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="1"
-                android:layout_column="1"
-                android:layout_gravity="center_vertical"
-                android:alpha="1"
-                android:src="@drawable/kugulu"
-                android:visibility="gone" />
-
-            <ImageView
-                android:id="@+id/imageView30"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="1"
-                android:layout_column="2"
-                android:layout_gravity="center_vertical"
-                android:alpha="1"
-                android:src="@drawable/kil"
-                android:visibility="gone" />
-
-            <ImageView
-                android:id="@+id/imageView31"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="1"
-                android:layout_column="3"
-                android:layout_gravity="center_vertical"
-                android:alpha="1"
-                android:src="@drawable/e" />
-
-            <ImageView
-                android:id="@+id/imageView32"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="2"
-                android:layout_column="1"
-                android:layout_gravity="center_vertical"
-                android:alpha="1"
-                android:src="@drawable/ker" />
-
-            <ImageView
-                android:id="@+id/imageView33"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="2"
-                android:layout_column="2"
-                android:layout_gravity="center_vertical"
-                android:alpha="1"
-                android:src="@drawable/ks" />
-
-            <ImageView
-                android:id="@+id/imageView34"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="2"
-                android:layout_column="3"
-                android:layout_gravity="center_vertical"
-                android:alpha="1"
-                android:src="@drawable/p" />
-
-            <ImageView
-                android:id="@+id/imageView35"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="3"
-                android:layout_column="1"
-                android:layout_gravity="center_vertical"
-                android:alpha="1"
-                android:src="@drawable/pa" />
-
-            <ImageView
-                android:id="@+id/imageView36"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="3"
-                android:layout_column="2"
-                android:layout_gravity="center_vertical"
-                android:alpha="1"
-                android:src="@drawable/par" />
-
-            <ImageView
-                android:id="@+id/imageView37"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="3"
-                android:layout_column="3"
-                android:layout_gravity="center_vertical"
-                android:alpha="1"
-                android:src="@drawable/park" />
-
-            <ImageView
-                android:id="@+id/imageView38"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="4"
-                android:layout_column="1"
-                android:layout_gravity="center_vertical"
-                android:alpha="1"
-                android:src="@drawable/parks" />
-
-            <ImageView
-                android:id="@+id/imageView39"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="4"
-                android:layout_column="2"
-                android:layout_gravity="center_vertical"
-                android:alpha="1"
-                android:src="@drawable/parkss" />
-
-            <ImageView
-                android:id="@+id/imageView40"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="4"
-                android:layout_column="3"
-                android:layout_gravity="center_vertical"
-                android:alpha="1"
-                android:src="@drawable/parksss" />
-
-            <ImageView
-                android:id="@+id/imageView41"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="5"
-                android:layout_column="1"
-                android:layout_gravity="center_vertical"
-                android:alpha="1"
-                android:src="@drawable/parkssss" />
-
-            <ImageView
-                android:id="@+id/imageView42"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="5"
-                android:layout_column="2"
-                android:layout_gravity="center_vertical"
-                android:alpha="1"
-                android:src="@drawable/parksssss" />
-
-        </GridLayout>
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/a" />
 
         <TextView
             android:id="@+id/slaytText"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
+            android:layout_marginBottom="30dp"
             android:ellipsize="marquee"
             android:fadingEdge="horizontal"
             android:marqueeRepeatLimit="marquee_forever"
             android:scrollHorizontally="true"
             android:singleLine="true"
             android:text="Gez Dünya'yı Gör Konya'yı. Hz.Mevlana..."
+            android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/gridLayout"
-            app:layout_constraintStart_toStartOf="@+id/gridLayout"></TextView>
+            tools:layout_editor_absoluteX="47dp"></TextView>
 
 
         <ImageView
@@ -328,10 +152,11 @@
             android:id="@+id/imageView2"
             android:layout_width="150dp"
             android:layout_height="75dp"
-            android:layout_marginBottom="60dp"
-            app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+            app:layout_constraintBottom_toTopOf="@+id/fotoImageV"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.69"
             app:srcCompat="@drawable/logo2" />
 
         <ImageView

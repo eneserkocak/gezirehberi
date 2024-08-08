@@ -25,9 +25,6 @@ class EntryFragment : BaseFragment<FragmentEntryBinding>(R.layout.fragment_entry
         super.onViewCreated(view, savedInstanceState)
 
 
-
-
-
         binding.slaytText.isSelected=true
 
         binding.placeBtn.setOnClickListener {
@@ -67,42 +64,32 @@ class EntryFragment : BaseFragment<FragmentEntryBinding>(R.layout.fragment_entry
     fun showImages(){
 
         //Runnable Kodlar
-        var imageArray=ArrayList<ImageView>()
-
-        //RUNNABLE IMAGE LAR
-        imageArray.add(binding.imageView26)
-        imageArray.add(binding.imageView27)
-        imageArray.add(binding.imageView28)
-        imageArray.add(binding.imageView29)
-        imageArray.add(binding.imageView30)
-        imageArray.add(binding.imageView31)
-        imageArray.add(binding.imageView32)
-        imageArray.add(binding.imageView33)
-        imageArray.add(binding.imageView34)
-        imageArray.add(binding.imageView35)
-        imageArray.add(binding.imageView36)
-        imageArray.add(binding.imageView37)
-        imageArray.add(binding.imageView38)
-        imageArray.add(binding.imageView39)
-        imageArray.add(binding.imageView40)
-        imageArray.add(binding.imageView41)
-        imageArray.add(binding.imageView42)
-
+      val photos = listOf(
+          R.drawable.a,
+          R.drawable.b,
+          R.drawable.c,
+          R.drawable.kugulu,
+          R.drawable.kil,
+          R.drawable.e,
+          R.drawable.ker,
+          R.drawable.ks,
+          R.drawable.p,
+          R.drawable.pa,
+          R.drawable.par,
+          R.drawable.park,
+          R.drawable.parks,
+          R.drawable.parkss,
+          R.drawable.parksss,
+          R.drawable.parkssss,
+          R.drawable.parksssss,
+      )
 
         var runnable=Runnable{}
         val handler= Handler(Looper.getMainLooper())
 
        runnable=object :Runnable{
             override fun run() {
-                for (image in imageArray){
-
-                    image.visibility=View.GONE
-
-                }
-
-                val random= Random()
-                val randomIndex= random.nextInt(17)
-                imageArray[randomIndex].visibility=View.VISIBLE
+                binding.fotoImageV.setImageResource(photos.random())
 
                 handler.postDelayed(runnable,3000)
 
