@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_screen"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            tools:context=".viewMyCity.CultureFragment">
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/selcuk"
+                app:civ_border_color="@color/app_color"
+                app:civ_border_width="3dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></de.hdodenhof.circleimageview.CircleImageView>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageView3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="105dp"
+                android:src="@drawable/neu"
+                app:civ_border_color="@color/app_color"
+                app:civ_border_width="3dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></de.hdodenhof.circleimageview.CircleImageView>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageView2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="105dp"
+                android:layout_marginEnd="40dp"
+                android:src="@drawable/kto"
+                app:civ_border_color="@color/app_color"
+                app:civ_border_width="3dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></de.hdodenhof.circleimageview.CircleImageView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintTop_toBottomOf="@+id/circleImageView2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Konya’da 3 Devlet, 2 Özel olmak üzere 5 adet üniversite mevcuttur. Bu üniversiteler Selçuk Üniversitesi, Konya Necmettin Erbakan Üniversitesi, Konya Teknik Üniversitesi, KTO Karatay Üniversitesi ve Konya Gıda ve Tarım Üniversitesidir. Konya’da 3 Tıp Fakültesi mevcuttur. Bunlar; Konya Necmettin Erbakan Üniversitesine bağlı Meram Tıp Fakültesi, KTO Karatay Üniversitesi Tıp Fakültesi ve Selçuk Üniversitesi’ne bağlı Selçuklu Tıp Fakültesi’dir. Konya'da 709 ilkokul, 566 ortaokul, 552 ortaöğretim ve 206 mesleki-teknik ortaöğretim kurumu bulunmaktadır (2022). Konya, ilkokul düzeyinde 162.049, ortaokul düzeyinde 153.862 ve ortaöğrenim düzeyinde 192.095 öğrenciye sahiptir. Mesleki-teknik ortaöğretimde ise 73.233 öğrenciye sahiptir (2022). Konya’da öne çıkan sektörlere yönelik mesleki eğitim veren okullar hizmete girmektedir. Aykent Ayakkabıcılar Sanayi Sitesi içerisinde yer alan Karatay Aykent Mesleki ve Teknik Anadolu Lisesi, Üzümlü Savunma Sanayi Mesleki ve Teknik Anadolu Lisesi, Huğlu Savunma Sanayi Mesleki ve Teknik Anadolu Lisesi, Ereğli Fatih Mesleki ve Teknik Anadolu Lisesi ve Aselsan Konya Mesleki ve Teknik Anadolu Lisesi iyi örnekler olarak karşımıza çıkmaktadır. 2022 yılı verilerine göre Konya 282.237 yüksekokul veya fakülte mezunu sayısı ile Türkiye’de 8. sırada yer alırken, 36.669 yüksek lisans mezunu ile 6., 6.467 doktora mezunu ile 4. sıradadır. 2023-2024 eğitim yılında Konya’da 129.904 üniversite öğrencisi bulunmaktadır ve 6. sıradadır. 5600’den fazla öğretim elemanının bulunduğu Konya’da 1.107 Profesör görev yapmaktadır. Her iki alanda da Konya bu rakamlarla Türkiye’de 4. sıradır (2023). Selçuk Üniversitesi, Konya’da uzun yıllardır 24 fakülte, 8 enstitü, 5 yüksekokul, 22 meslek yüksekokulu, 53 araştırma ve uygulama merkezi ve 1 adet konservatuarda 68.195 öğrenci ile eğitim hizmetine devam etmektedir (2024). KTO Karatay Üniversitesi 5 adet fakülte, 3 yüksekokul, 3 meslek yüksekokulu, 1 adet enstitü, 6 adet araştırma ve uygulama merkezi ve 9115 öğrenci ile eğitim faaliyetine devam etmektedir (2024). Necmettin Erbakan Üniversitesi 20 fakülte, 7 meslek yüksekokulu, 4 enstitü, 1 konservatuar 37 araştırma ve uygulama merkezi ile 39.453 öğrenciye eğitim vermektedir (2024). Konya Gıda ve Tarım Üniversitesi, 3 fakülte, 2 enstitü ve 7 araştırma ve uygulama merkezi ile 1325 öğrenciye eğitim vermektedir (2023). Konya Teknik Üniversitesi 4 fakülte, 1 meslek yüksekokulu, 1 enstitü, 11 uygulama ve araştırma merkezi ve 12.087 öğrenci ile eğitim vermektedir (2024)."                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/circleImageView3"></TextView>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+
+    </LinearLayout>
+</layout>

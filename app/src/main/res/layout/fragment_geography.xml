@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_screen"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            tools:context=".viewMyCity.CultureFragment">
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/map"
+                app:civ_border_color="@color/app_color"
+                app:civ_border_width="3dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></de.hdodenhof.circleimageview.CircleImageView>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageView3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="105dp"
+                android:src="@drawable/loras"
+                app:civ_border_color="@color/app_color"
+                app:civ_border_width="3dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></de.hdodenhof.circleimageview.CircleImageView>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageView2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="105dp"
+                android:layout_marginEnd="40dp"
+                android:src="@drawable/toross"
+                app:civ_border_color="@color/app_color"
+                app:civ_border_width="3dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></de.hdodenhof.circleimageview.CircleImageView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintTop_toBottomOf="@+id/circleImageView2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Konya ili Anadolu Yarımadası’nın ortasında bulunan iç Anadolu Bölgesi'nin güneyinde yer almaktadır. Topraklarının büyük bir bölümü, iç Anadolu'nun yüksek düzlükleri üzerinde yer alır. Güney ve güneybatı kesimleri Akdeniz bölgesine dahildir. Ortalama yükseltisi 1 016 m'dir. İdari yönden, kuzeyden Ankara; batıdan Isparta, Afyonkarahisar, Eskişehir; güneyden Mersin, Karaman, Antalya; doğudan Niğde, Aksaray illeri ile çevrilidir. Konya ili, doğal açıdan kuzeyinde Haymana platosuna; kuzeydoğusunda Cihanbeyli Platosu ve Tuz Gölü'ne; batısında Beyşehir Gölü'ne ve Akşehir Gölü'ne; güneyinde Sultan Dağları’ndan başlayan Karaman ilinin güneyine kadar devam eden, Toros yayının iç yamaçları önünde bir fay hattı boyunca oluşmuş volkanik dağlara; doğusunda ise Obruk Platosuna kadar uzanır. Konya ve çevresindeki Çumra, Ereğli, Cihanbeyli, Akşehir, Yunak ovalarında yaklaşık 20-100 metreler arasında yer altı suyu bulunmakta ve bazı yerlerde bu su artezyen yapmaktadır. Konya ilinde en fazla alana sahip yeryüzü şekli ova ve platolardır. Dağlar: ilin kuzey kısmında yaralan yükseltiler genel olarak doğu-batı doğrultusunda uzanır. En önemlisi Bozdağlardır. Konya’nın batısında yaralan sıra dağlar kuzeyden güneye doğru uzanırlar. En kuzeyinde Sultan Dağları (2 169 m), Aladağlar (2 339 m), Loras (2 040 m), Eşenler (1 951 m) yer almaktadır. Bölgenin güney kısmı Toros dağlarıyla sınırlanmıştır. Bu kuşakta ise Geyik (3 130 m), Bolkar dağları (3 134 m), Aydos dağları (3 240 m) yer almaktadır."                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/circleImageView3"></TextView>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+
+    </LinearLayout>
+</layout>

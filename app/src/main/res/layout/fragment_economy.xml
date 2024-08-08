@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_screen"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            tools:context=".viewMyCity.CultureFragment">
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/tari"
+                app:civ_border_color="@color/app_color"
+                app:civ_border_width="3dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></de.hdodenhof.circleimageview.CircleImageView>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageView3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="105dp"
+                android:src="@drawable/osb"
+                app:civ_border_color="@color/app_color"
+                app:civ_border_width="3dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></de.hdodenhof.circleimageview.CircleImageView>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageView2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="105dp"
+                android:layout_marginEnd="40dp"
+                android:src="@drawable/panel"
+                app:civ_border_color="@color/app_color"
+                app:civ_border_width="3dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></de.hdodenhof.circleimageview.CircleImageView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintTop_toBottomOf="@+id/circleImageView2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Konya’da ekonomik hayatın temelini tarımsal faaliyetler oluşturmaktadır. Fakat son yıllarda sanayi alanında da büyük gelişmeler kaydedilmiştir. Bu durum, Konya’nın Türkiye’de tahıl ambarı olma görünümünü değiştirerek bir sanayi merkezi olma görünümü kazanmasına yol açmıştır. Konya’da sanayi faaliyetleri istikrarlı bir gelişme göstermektedir. İlki 1976 yılında faaliyete giren Konya 1.Organize Sanayi Bölgesi 115 hektar alan üzerinde 150 işyeri kapasitesi ile kurulmuştur. Zaman içerisinde Konya’da, organize sanayi bölgelerinin sayısı 9’a yükselirken, organize sanayi bölgelerinin kapladığı toplam alan 2 686 hektara yükselmiştir. Organize Sanayi Bölgelerinin yanı sıra, 48 adet küçük sanayi sitesi ve 10 adet diğer sanayi alanları olmak üzere toplam 58 adet sanayi alanı bulunmaktadır. Konya sanayi 1980'lerden sonra çeşitli sektörlerde büyük gelişim kaydetmiştir. Bunların arasında makine imalatı, otomotiv yedek parça sanayi, metal döküm, gıda endüstrisi, araç-üstü ekipman üretimi, plastik-ambalaj, araç üstü vinç ekipmanları, imalatı, tarım makineleri, silah sanayi ve ekipmanları ile değirmen makinesi üretimi rekabetçi sektörler olarak öne çıkmaktadır. Yakın bir geçmişte gelişim gösteren bazı sektörler ise yenilenebilir enerji, yazılım, savunma sanayii ve ilaç sektörleridir. 2022 yılı Konya’nın Gayrisafi Yurt İçi Hâsıla paylarına bakıldığında sanayi sektörü %30,9; tarım sektörü %18,8; hizmet sektörü ise %39,8 paya sahiptir. Konya, ülkemizde metal işleme makineleri sektöründe, araç üstü ekipman sektöründe, tarım makineleri ve ekipmanları sektöründe, av tüfekleri imalatında Türkiye pazarının lider üreticisi konumundadır. Tarım makineleri ve ekipmanların ülkemizin ihracatında 2. sıradadır. Savunma sanayi ihracatında ise 4. sıradadır. İSO 1.000’de toplam 22 firması bulunmaktadır. Bu listede yer alan ancak başka il odasına kayıtlı olmasına rağmen Konya’da üretimi ve yatırımı olan birçok büyük şirket de bulunmaktadır. Otomotiv yan sanayi, döküm, ayakkabıcılık, tarım makineleri, savunma sanayi gibi alanlarda 4 adet de kümelenme çalışması yürütülmektedir. Türkiye’de Konya; sanayi işletmesi sayısında 5., otomotiv yan sanayi ve ana metal imalatçıları sayısında 2., makine-ekipman imalatçıları sayısında 3., metal ürünleri imalatçı sayısında 3., gıda imalatçıları sayısında 4.sırada yer almaktadır. Konya, Türkiye’de toplam sanayi sitesi alanında ve toplam sanayi alanında 1., toplam OSB alanında 6. sıradadır. 106 ile en fazla sanayi sitesine sahip ildir. 21 Ar-Ge ve 1 Tasarım Merkezinin bulunduğu Konya’da, Konya Teknokent ve InnoPark Konya Teknoloji Geliştirme Bölgeleri ile inovasyon ve girişimcilik ekosistemini geliştirmeye odaklanan Konya, 50.000'i aşkın işyeri, 500'den fazla yabancı sermayeli firması, 12 Organize Sanayi Bölgesi ve 106 sanayi sitesi ile ülkemizin önemli tarım, sanayi ve ticaret merkezidir. Ayrıca; Kadınhanı OSB, Tarım Makineleri İhtisas OSB ve Ereğli Gıda İhtisas OSB kuruluş çalışmaları da devam etmektedir. Karapınar Enerji İhtisas ve Konya Teknoloji isimleri ile 2 adet de Endüstri Bölgesi bulunmaktadır. Ayrıca Konya’da 1 adet de özel organize sanayi bölgesi bulunmaktadır. Bu özellikleri ile Konya, yüksek teknoloji odaklı üretimindeki payını artırmakta ve yatırımcılar için her geçen gün daha da cazip hale gelmektedir. Konya, Türkiye’de alınan patent sayısında 7., marka tescilinde 6., faydalı modelde 5., tasarım da ise 7. sıradadır. Ayrıca, Konya’da 72 Coğrafi İşaretli ürün bulunmakta olup Türkiye’de 2.sıradadır. Türkiye’nin en büyük 4. fuar merkezine sahip Konya’da, her yıl Türkiye’nin en büyük uluslararası fuarlarından biri düzenlenmektedir. Son 23 yılda ihracatın 38 kat arttıran ilimiz, devam eden projelerin tamamlanmasıyla birlikte birçok alanda olduğu gibi yatırımın da merkezi olacaktır. 3.400’den fazla ihracatçı firmasıyla 180’den fazla ülkeye 3,3 milyar dolar ihracat yapan Konya, 1,7 milyar dolar dış ticaret fazlası vermektedir. ABD, Birleşik Krallık ve Kanada yanı sıra Almanya, İtalya, Fransa, Belçika, İspanya, Hollanda gibi ülkelerin de yer aldığı 24 Avrupa Birliği ülkesine dış ticaret fazlası vermektedir. Konya ihracatının %95,6'dan fazlası ise imalat sanayi oluşturmaktadır. İl, güneş radyasyonu (güneş ışınımı) değerleri ve güneşli saatler açısından Türkiye'nin en uygun bölgesidir. Türkiye'de en iyi radyasyon (güneş ışınımı) ve güneş ışığına maruz kalmaktadır. Coğrafi olarak uygun eğime sahip geniş ovalarla kaplı olan Bölge, güneş enerjisiyle ilgili yatırımlar için uygun bir konumdadır. Buna ek olarak, en zengin linyit kömür maden rezervlerinden biri (yaklaşık 1,8 milyar ton) Konya-Karaman Bölgesi'nde bulunmaktadır. Hızla artan enerji talebi ile birlikte Bölge, aynı zamanda hidroelektrik, güneş, rüzgâr ve biokütle enerjisi açısından büyük bir potansiyele sahiptir. Türkiye'nin tahıl ambarı konumunda bulunan Konya, ülkemizin tahıl ambarı diyebileceğimiz ilimiz; toplam tarım alanı, toplam tahıl üretimi yanı sıra süt, un, şeker, buğday, arpa, şeker pancarı, ayçekirdeği, lale, mısır (dane), havuç, vişne, fiğ (macar) (yeşil ot), kuşyemi, bezelye, korunga (tohum), acıbakla üretiminde Türkiye lideri konumundadır. Yonca (yeşilot), mısır (silajlık), üzüm (kurutmalık-çekirdekli), lahana (kırmızı), haşhaş (tohum), kimyon, turp (bayır), pepino, kavun, mercimek (yeşil), nane üretiminde Türkiye’de 2.sıradadır. Patates (diğer), ayçiçeği (yağlık), kanola, kabak (çerezlik), rezene, yonca (tohum), aspir, elma (grannysmith), lavanta üretiminde ise Türkiye’de 3.sıradadır. Ülkemizde Konya; canlı hayvanlar değeri, hayvansal ürünler değeri, büyükbaş hayvan sayısı ve sığır (kültür) sayısında 1.sırada; toplam küçükbaş hayvan ve yerli koyun sayılarında 2.sırada;  yumurta tavuğu sayısında ise 3.sırada yer almaktadır. Bunun yanı sıra önemli bir turizm merkezi olan ve her yıl 2 milyondan fazla kişiye ev sahipliği yapan il, inanç, kültür, doğa turizmi yatırımları açısından da son derece elverişlidir. Kapadokya ve Antalya gibi önemli turizm merkezlerinin geçiş güzergâhındadır. 7 adet 5 yıldızlı otele sahip ilde yer alan Mevlana Müzesi ise Türkiye’nin en çok ziyaret edilen 2.müzesidir."                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/circleImageView3"></TextView>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+
+    </LinearLayout>
+</layout>

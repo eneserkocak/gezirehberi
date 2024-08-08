@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/back_screen"
+        tools:context=".viewMain.FavoriteFragment"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/parkLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parklar ve Mesire Alanları"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginTop="3dp"
+            ></TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/favoriteParkListRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lakeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Göller ve Mağaralar"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginTop="3dp"
+                ></TextView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/favoriteLakeListRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/historyLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tarihi Yapılar"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginTop="3dp"
+                ></TextView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/favoriteHistoryListRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/museumLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Müzeler"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginTop="3dp"
+                ></TextView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/favoriteMuseumListRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mosqueLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Camiler ve Medreseler"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginTop="3dp"
+                ></TextView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/favoriteMosqueListRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ancientLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Antik Kent ve Örenler"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginTop="3dp"
+                ></TextView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/favoriteAncientListRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/caravanseraiLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kervansaraylar"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginTop="3dp"
+                ></TextView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/favoriteCaravanseraiListRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bathLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hamam ve Kaplıcalar"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginTop="3dp"
+                ></TextView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/favoriteBathListRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/churchLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kiliseler"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginTop="3dp"
+                ></TextView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/favoriteChurchListRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+</layout>

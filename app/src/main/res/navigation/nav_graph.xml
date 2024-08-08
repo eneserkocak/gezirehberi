@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/entryFragment">
+
+    <fragment
+        android:id="@+id/entryFragment"
+        android:name="com.eneserkocak.gezirehberi.viewMain.EntryFragment"
+        android:label="Konya Gezi Rehberi" >
+        <action
+            android:id="@+id/action_entryFragment_to_placesFragment"
+            app:destination="@id/placesFragment" />
+        <action
+            android:id="@+id/action_entryFragment_to_favoriteFragment"
+            app:destination="@id/favoriteFragment" />
+        <action
+            android:id="@+id/action_entryFragment_to_weatherFragment"
+            app:destination="@id/weatherFragment" />
+        <action
+            android:id="@+id/action_entryFragment_to_myCityFragment"
+            app:destination="@id/myCityFragment" />
+        <action
+            android:id="@+id/action_entryFragment_to_supportFragment"
+            app:destination="@id/supportFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/placesFragment"
+        android:name="com.eneserkocak.gezirehberi.viewMain.PlacesFragment"
+        android:label="Gezi Rotaları" >
+        <action
+            android:id="@+id/action_placesFragment_to_entryFragment"
+            app:destination="@id/entryFragment" />
+        <action
+            android:id="@+id/action_placesFragment_to_parksListFragment"
+            app:destination="@id/parksListFragment" />
+        <action
+            android:id="@+id/action_placesFragment_to_lakesListFragment"
+            app:destination="@id/lakesListFragment" />
+        <action
+            android:id="@+id/action_placesFragment_to_historyListFragment"
+            app:destination="@id/historyListFragment" />
+        <action
+            android:id="@+id/action_placesFragment_to_museumListFragment"
+            app:destination="@id/museumListFragment" />
+        <action
+            android:id="@+id/action_placesFragment_to_mosqueListFragment"
+            app:destination="@id/mosqueListFragment" />
+        <action
+            android:id="@+id/action_placesFragment_to_ancientListFragment"
+            app:destination="@id/ancientListFragment" />
+        <action
+            android:id="@+id/action_placesFragment_to_caravanseraiListFragment"
+            app:destination="@id/caravanseraiListFragment" />
+        <action
+            android:id="@+id/action_placesFragment_to_bathListFragment"
+            app:destination="@id/bathListFragment" />
+        <action
+            android:id="@+id/action_placesFragment_to_churchListFragment"
+            app:destination="@id/churchListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/parksListFragment"
+        android:name="com.eneserkocak.gezirehberi.viewParks.ParksListFragment"
+        android:label="Parklar ve Mesire Alanları" >
+        <action
+            android:id="@+id/action_parksListFragment_to_placesFragment"
+            app:destination="@id/placesFragment" />
+        <action
+            android:id="@+id/action_parksListFragment_to_parskDetailFragment"
+            app:destination="@id/parskDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.eneserkocak.gezirehberi.viewMain.FavoriteFragment"
+        android:label="Favori Listem" >
+        <action
+            android:id="@+id/action_favoriteFragment_to_entryFragment"
+            app:destination="@id/entryFragment" />
+        <action
+            android:id="@+id/action_favoriteFragment_to_parkMapsFragment"
+            app:destination="@id/parkMapsFragment" />
+        <action
+            android:id="@+id/action_favoriteFragment_to_lakeMapsFragment"
+            app:destination="@id/lakeMapsFragment" />
+        <action
+            android:id="@+id/action_favoriteFragment_to_historyMapsFragment"
+            app:destination="@id/historyMapsFragment" />
+        <action
+            android:id="@+id/action_favoriteFragment_to_museumMapsFragment"
+            app:destination="@id/museumMapsFragment" />
+        <action
+            android:id="@+id/action_favoriteFragment_to_mosqueMapsFragment"
+            app:destination="@id/mosqueMapsFragment" />
+        <action
+            android:id="@+id/action_favoriteFragment_to_ancientMapsFragment"
+            app:destination="@id/ancientMapsFragment" />
+        <action
+            android:id="@+id/action_favoriteFragment_to_caravanseraiMapsFragment"
+            app:destination="@id/caravanseraiMapsFragment" />
+        <action
+            android:id="@+id/action_favoriteFragment_to_bathMapsFragment"
+            app:destination="@id/bathMapsFragment" />
+        <action
+            android:id="@+id/action_favoriteFragment_to_churchMapsFragment"
+            app:destination="@id/churchMapsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/parskDetailFragment"
+        android:name="com.eneserkocak.gezirehberi.viewParks.ParksDetailFragment"
+        android:label="Parklar ve Mesire Alanları" >
+        <action
+            android:id="@+id/action_parskDetailFragment_to_parksListFragment"
+            app:destination="@id/parksListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/parkMapsFragment"
+        android:name="com.eneserkocak.gezirehberi.viewParks.ParkMapsFragment"
+        android:label="Navigasyon Yap" >
+        <action
+            android:id="@+id/action_parkMapsFragment_to_favoriteFragment"
+            app:destination="@id/favoriteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/lakesListFragment"
+        android:name="com.eneserkocak.gezirehberi.viewLakes.LakesListFragment"
+        android:label="Göller ve Mağaralar" >
+        <action
+            android:id="@+id/action_lakesListFragment_to_lakesDetailFragment"
+            app:destination="@id/lakesDetailFragment" />
+        <action
+            android:id="@+id/action_lakesListFragment_to_placesFragment"
+            app:destination="@id/placesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/lakesDetailFragment"
+        android:name="com.eneserkocak.gezirehberi.viewLakes.LakesDetailFragment"
+        android:label="Göller ve Mağaralar" >
+        <action
+            android:id="@+id/action_lakesDetailFragment_to_lakesListFragment"
+            app:destination="@id/lakesListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/lakeMapsFragment"
+        android:name="com.eneserkocak.gezirehberi.viewLakes.LakeMapsFragment"
+        android:label="Navigasyon Yap" >
+        <action
+            android:id="@+id/action_lakeMapsFragment_to_favoriteFragment"
+            app:destination="@id/favoriteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyListFragment"
+        android:name="com.eneserkocak.gezirehberi.viewHistory.HistoryListFragment"
+        android:label="Tarihi Yapılar" >
+        <action
+            android:id="@+id/action_historyListFragment_to_historyDetailFragment"
+            app:destination="@id/historyDetailFragment" />
+        <action
+            android:id="@+id/action_historyListFragment_to_placesFragment"
+            app:destination="@id/placesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyDetailFragment"
+        android:name="com.eneserkocak.gezirehberi.viewHistory.HistoryDetailFragment"
+        android:label="Tarihi Yapılar" >
+        <action
+            android:id="@+id/action_historyDetailFragment_to_historyListFragment"
+            app:destination="@id/historyListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyMapsFragment"
+        android:name="com.eneserkocak.gezirehberi.viewHistory.HistoryMapsFragment"
+        android:label="Navigasyon Yap" >
+        <action
+            android:id="@+id/action_historyMapsFragment_to_favoriteFragment"
+            app:destination="@id/favoriteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/museumListFragment"
+        android:name="com.eneserkocak.gezirehberi.viewMuseum.MuseumListFragment"
+        android:label="Müzeler" >
+        <action
+            android:id="@+id/action_museumListFragment_to_museumDetailFragment"
+            app:destination="@id/museumDetailFragment" />
+        <action
+            android:id="@+id/action_museumListFragment_to_placesFragment"
+            app:destination="@id/placesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/museumDetailFragment"
+        android:name="com.eneserkocak.gezirehberi.viewMuseum.MuseumDetailFragment"
+        android:label="Müzeler" >
+        <action
+            android:id="@+id/action_museumDetailFragment_to_museumListFragment"
+            app:destination="@id/museumListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/museumMapsFragment"
+        android:name="com.eneserkocak.gezirehberi.viewMuseum.MuseumMapsFragment"
+        android:label="Navigasyon Yap" >
+        <action
+            android:id="@+id/action_museumMapsFragment_to_favoriteFragment"
+            app:destination="@id/favoriteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mosqueListFragment"
+        android:name="com.eneserkocak.gezirehberi.viewMosque.MosqueListFragment"
+        android:label="Cami ve Medreseler" >
+        <action
+            android:id="@+id/action_mosqueListFragment_to_mosqueDetailFragment"
+            app:destination="@id/mosqueDetailFragment" />
+        <action
+            android:id="@+id/action_mosqueListFragment_to_placesFragment"
+            app:destination="@id/placesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mosqueDetailFragment"
+        android:name="com.eneserkocak.gezirehberi.viewMosque.MosqueDetailFragment"
+        android:label="Cami ve Medreseler"
+        tools:layout="@layout/fragment_mosque_detail" >
+        <action
+            android:id="@+id/action_mosqueDetailFragment_to_mosqueListFragment"
+            app:destination="@id/mosqueListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mosqueMapsFragment"
+        android:name="com.eneserkocak.gezirehberi.viewMosque.MosqueMapsFragment"
+        android:label="Navigasyon Yap"
+        tools:layout="@layout/fragment_mosque_maps" >
+        <action
+            android:id="@+id/action_mosqueMapsFragment_to_favoriteFragment"
+            app:destination="@id/favoriteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ancientListFragment"
+        android:name="com.eneserkocak.gezirehberi.viewAncientcity.AncientListFragment"
+        android:label="Antik Kent ve Örenler" >
+        <action
+            android:id="@+id/action_ancientListFragment_to_ancientDetailFragment"
+            app:destination="@id/ancientDetailFragment" />
+        <action
+            android:id="@+id/action_ancientListFragment_to_placesFragment"
+            app:destination="@id/placesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ancientDetailFragment"
+        android:name="com.eneserkocak.gezirehberi.viewAncientcity.AncientDetailFragment"
+        android:label="Antik Kent ve Örenler" >
+        <action
+            android:id="@+id/action_ancientDetailFragment_to_ancientListFragment"
+            app:destination="@id/ancientListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ancientMapsFragment"
+        android:name="com.eneserkocak.gezirehberi.viewAncientcity.AncientMapsFragment"
+        android:label="Navigasyon Yap" >
+        <action
+            android:id="@+id/action_ancientMapsFragment_to_favoriteFragment"
+            app:destination="@id/favoriteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/caravanseraiDetailFragment"
+        android:name="com.eneserkocak.gezirehberi.viewCaravanserai.CaravanseraiDetailFragment"
+        android:label="Kervansaraylar" >
+        <action
+            android:id="@+id/action_caravanseraiDetailFragment_to_caravanseraiListFragment"
+            app:destination="@id/caravanseraiListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/caravanseraiListFragment"
+        android:name="com.eneserkocak.gezirehberi.viewCaravanserai.CaravanseraiListFragment"
+        android:label="Kervansaraylar" >
+        <action
+            android:id="@+id/action_caravanseraiListFragment_to_placesFragment"
+            app:destination="@id/placesFragment" />
+        <action
+            android:id="@+id/action_caravanseraiListFragment_to_caravanseraiDetailFragment"
+            app:destination="@id/caravanseraiDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/caravanseraiMapsFragment"
+        android:name="com.eneserkocak.gezirehberi.viewCaravanserai.CaravanseraiMapsFragment"
+        android:label="Navigasyon Yap" >
+        <action
+            android:id="@+id/action_caravanseraiMapsFragment_to_favoriteFragment"
+            app:destination="@id/favoriteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bathListFragment"
+        android:name="com.eneserkocak.gezirehberi.viewBath.BathListFragment"
+        android:label="Hamam ve Kaplıcalar" >
+        <action
+            android:id="@+id/action_bathListFragment_to_bathDetailFragment"
+            app:destination="@id/bathDetailFragment" />
+        <action
+            android:id="@+id/action_bathListFragment_to_placesFragment"
+            app:destination="@id/placesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bathDetailFragment"
+        android:name="com.eneserkocak.gezirehberi.viewBath.BathDetailFragment"
+        android:label="Hamam ve Kaplıcalar" >
+        <action
+            android:id="@+id/action_bathDetailFragment_to_bathListFragment"
+            app:destination="@id/bathListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bathMapsFragment"
+        android:name="com.eneserkocak.gezirehberi.viewBath.BathMapsFragment"
+        android:label="Navigasyon Yap" >
+        <action
+            android:id="@+id/action_bathMapsFragment_to_favoriteFragment"
+            app:destination="@id/favoriteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/churchListFragment"
+        android:name="com.eneserkocak.gezirehberi.viewChurch.ChurchListFragment"
+        android:label="Kiliseler" >
+        <action
+            android:id="@+id/action_churchListFragment_to_placesFragment"
+            app:destination="@id/placesFragment" />
+        <action
+            android:id="@+id/action_churchListFragment_to_churchDetailFragment"
+            app:destination="@id/churchDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/churchDetailFragment"
+        android:name="com.eneserkocak.gezirehberi.viewChurch.ChurchDetailFragment"
+        android:label="Kiliseler" >
+        <action
+            android:id="@+id/action_churchDetailFragment_to_churchListFragment"
+            app:destination="@id/churchListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/churchMapsFragment"
+        android:name="com.eneserkocak.gezirehberi.viewChurch.ChurchMapsFragment"
+        android:label="Navigasyon Yap" >
+        <action
+            android:id="@+id/action_churchMapsFragment_to_favoriteFragment"
+            app:destination="@id/favoriteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/weatherFragment"
+        android:name="com.eneserkocak.gezirehberi.viewWeather.WeatherFragment"
+        android:label="Hava Durumu" >
+        <action
+            android:id="@+id/action_weatherFragment_to_entryFragment"
+            app:destination="@id/entryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myCityFragment"
+        android:name="com.eneserkocak.gezirehberi.viewMyCity.MyCityFragment"
+        android:label="Konya'yı Tanıyalım" >
+        <action
+            android:id="@+id/action_myCityFragment_to_entryFragment"
+            app:destination="@id/entryFragment" />
+        <action
+            android:id="@+id/action_myCityFragment_to_cultureFragment"
+            app:destination="@id/cultureFragment" />
+        <action
+            android:id="@+id/action_myCityFragment_to_populationFragment"
+            app:destination="@id/populationFragment" />
+        <action
+            android:id="@+id/action_myCityFragment_to_geographyFragment"
+            app:destination="@id/geographyFragment" />
+        <action
+            android:id="@+id/action_myCityFragment_to_kitchenFragment"
+            app:destination="@id/kitchenFragment" />
+        <action
+            android:id="@+id/action_myCityFragment_to_transportFragment"
+            app:destination="@id/transportFragment" />
+        <action
+            android:id="@+id/action_myCityFragment_to_transportFragment2"
+            app:destination="@id/transportFragment" />
+        <action
+            android:id="@+id/action_myCityFragment_to_educationFragment"
+            app:destination="@id/educationFragment" />
+        <action
+            android:id="@+id/action_myCityFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+        <action
+            android:id="@+id/action_myCityFragment_to_sportFragment"
+            app:destination="@id/sportFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cultureFragment"
+        android:name="com.eneserkocak.gezirehberi.viewMyCity.CultureFragment"
+        android:label="Kültür Yapısı" >
+        <action
+            android:id="@+id/action_cultureFragment_to_myCityFragment"
+            app:destination="@id/myCityFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/populationFragment"
+        android:name="com.eneserkocak.gezirehberi.viewMyCity.PopulationFragment"
+        android:label="Nüfus Yapısı" >
+        <action
+            android:id="@+id/action_populationFragment_to_myCityFragment"
+            app:destination="@id/myCityFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/geographyFragment"
+        android:name="com.eneserkocak.gezirehberi.viewMyCity.GeographyFragment"
+        android:label="Coğrafya" >
+        <action
+            android:id="@+id/action_geographyFragment_to_myCityFragment"
+            app:destination="@id/myCityFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/economyFragment"
+        android:name="com.eneserkocak.gezirehberi.viewMyCity.EconomyFragment"
+        android:label="Ekonomik Yapı" >
+        <action
+            android:id="@+id/action_economyFragment_to_myCityFragment"
+            app:destination="@id/myCityFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/educationFragment"
+        android:name="com.eneserkocak.gezirehberi.viewMyCity.EducationFragment"
+        android:label="Eğitim Durumu" >
+        <action
+            android:id="@+id/action_educationFragment_to_myCityFragment"
+            app:destination="@id/myCityFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.eneserkocak.gezirehberi.viewMyCity.HistoryFragment"
+        android:label="Konya Tarihi" >
+        <action
+            android:id="@+id/action_historyFragment_to_myCityFragment"
+            app:destination="@id/myCityFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/kitchenFragment"
+        android:name="com.eneserkocak.gezirehberi.viewMyCity.KitchenFragment"
+        android:label="Konya Mutfağı" >
+        <action
+            android:id="@+id/action_kitchenFragment_to_myCityFragment"
+            app:destination="@id/myCityFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sportFragment"
+        android:name="com.eneserkocak.gezirehberi.viewMyCity.SportFragment"
+        android:label="Spor Faaliyetleri" >
+        <action
+            android:id="@+id/action_sportFragment_to_myCityFragment"
+            app:destination="@id/myCityFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/transportFragment"
+        android:name="com.eneserkocak.gezirehberi.viewMyCity.TransportFragment"
+        android:label="Ulaşım Ağı" >
+        <action
+            android:id="@+id/action_transportFragment_to_myCityFragment"
+            app:destination="@id/myCityFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/supportFragment"
+        android:name="com.eneserkocak.gezirehberi.viewMain.SupportFragment"
+        android:label="Dilek ve Öneriler" >
+        <action
+            android:id="@+id/action_supportFragment_to_entryFragment"
+            app:destination="@id/entryFragment" />
+    </fragment>
+</navigation>

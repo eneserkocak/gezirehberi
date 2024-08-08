@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="favoriteHistoryList"
+            type="com.eneserkocak.gezirehberi.model.FavoriteHistory" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:background="@drawable/ilac_row_bg"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+
+
+
+                <ImageView
+                    android:id="@+id/favoriteHistoryImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/park"
+                    ></ImageView>
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/favoriteHistoryAdi"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:text="@{favoriteHistoryList.favoriteHistoryName}"
+                    android:textSize="16sp"
+
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+
+                    ></TextView>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/share_location_24">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@{favoriteHistoryList.favoriteHistoryLocation}"
+                        android:layout_marginStart="1dp"
+                        android:layout_gravity="center_vertical"
+                        >
+
+
+                    </TextView>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/navigateBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    >
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/navigation_24">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginStart="1dp"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="14sp"
+
+                        android:text="Navigasyon Yap">
+
+
+                    </TextView>
+                </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/deleteBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        >
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="wrap_content"
+
+                        android:src="@drawable/delete">
+
+                    </ImageView>
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</layout>

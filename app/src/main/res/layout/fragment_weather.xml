@@ -1,0 +1,252 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/swipe_refresh_layout"
+        android:background="@drawable/back_screen"
+        android:padding="16dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           >
+
+
+
+            <TextView
+                android:id="@+id/tv_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Error, Try Again"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ProgressBar
+                android:id="@+id/pb_loading"
+                android:visibility="gone"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="#65B669"
+                    android:padding="10dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edt_city_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:background="#FFFFFF"
+                        android:padding="5dp"
+                        android:hint="Şehir ismi giriniz..!"></EditText>
+
+
+                    <ImageView
+                        android:id="@+id/img_search_city_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/search"
+
+                        ></ImageView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/weather_view"
+
+                >
+
+                <TextView
+                    android:id="@+id/tv_degree"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="12C"
+                    android:layout_weight="1"
+                    android:textSize="80sp"
+                    android:gravity="center"
+                    ></TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#54A9ABAE"
+                    android:padding="15dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv_country_code"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Country Code"
+                            android:textSize="20sp"></TextView>
+
+                        <TextView
+                            android:id="@+id/tv_city_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="City Name"
+                            android:textSize="17sp"></TextView>
+
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/img_weather_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/cloud">
+
+                    </ImageView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#54A9ABAE"
+                    android:layout_marginTop="15dp"
+                    android:padding="15dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nem"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rüzgar Hızı"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Enlem"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Boylam"></TextView>
+
+
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="15dp"
+
+                        >
+                        <TextView
+                            android:id="@+id/tv_humidity"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="data1"></TextView>
+
+                        <TextView
+                            android:id="@+id/tv_speed"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="data1"></TextView>
+
+                        <TextView
+                            android:id="@+id/tv_lat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="data1"></TextView>
+
+                        <TextView
+                            android:id="@+id/tv_long"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="data1"></TextView>
+
+
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+</layout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/back_screen"
+            android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            tools:context=".viewMyCity.CultureFragment">
+
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/circleImageView"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/yht"
+                    app:civ_border_color="@color/app_color"
+                    app:civ_border_width="3dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"></de.hdodenhof.circleimageview.CircleImageView>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/circleImageView3"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="105dp"
+                    android:src="@drawable/havayolu"
+                    app:civ_border_color="@color/app_color"
+                    app:civ_border_width="3dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"></de.hdodenhof.circleimageview.CircleImageView>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/circleImageView2"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="105dp"
+                    android:layout_marginEnd="40dp"
+                    android:src="@drawable/viyaduk"
+                    app:civ_border_color="@color/app_color"
+                    app:civ_border_width="3dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"></de.hdodenhof.circleimageview.CircleImageView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintTop_toBottomOf="@+id/circleImageView2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Konya Türkiye’nin merkezinde bulunmasından ötürü Ulaşım imkanları bakımından çok avantajlı bir konuma sahiptir. Konya ili ülkemizin ana ulaşımını sağlayan doğu-batı ve kuzey-güney yönlerinde uzanan karayolu bağlantıları ile önemli bir kavşak noktası halindedir. İlin, kuzey komşusu olan Ankara ile bağlantısı, Konya’dan başlayan ve Cihanbeyli ile Kulu İlçe merkezlerinden geçerek başkente ulaşan yol ile sağlanmaktadır. Konya ilini güney kıyılarına en kısa mesafeden bağlayan Konya-Seydişehir-Antalya yolunun 1996 yılında trafiğe açılmasıyla, ilin trafik yükünde önemli artışlar meydana gelmiştir. Yozgat’ın Boğazlıyan ilçesi Türkiye’nin coğrafi merkezi olarak kabul edilir. İllerin nüfusları göz önüne alındığında ağırlıklı merkez buranın daha batısında yer almaktadır. Zaman içerisinde hareketlilik gösteren ağırlıklı merkez bugün tahminen Konya’nın Kulu ilçesi civarındadır. Ekonomik büyüklükler de eklendiğinde ağırlık merkezinin biraz daha kuzeybatıda, Ankara’nın Gölbaşı ilçesi dolaylarında yer alacağını söyleyebiliriz. Konya ili bu ağırlık merkezlerinin yaklaşık 200 km güneyinde, Kuzey-Güney aksında D715 (Ankara-Konya-Antalya) yolu ile Doğu- Batı aksında D300 (Aksaray-Konya-Afyon) karayollarının kesişiminde yer almaktadır. KARAYOLU ULAŞIMI: Konya, gerek yüzölçümünün genişliği ve gerekse ülke içindeki coğrafi konumu itibarıyla yol uzunluğu en fazla olan illerimizdendir. İl’de 3000 kilometreden fazla il ve devlet yolu ile bu alanda 1. sıradadır. Konya – İstanbul : 662 km, Konya – Ankara : 258 km, Konya-İzmir: 550 km, Konya – Antalya : 300 km, Konya – Mersin : 348 km dir. Konya'nın karayolu ile ulaşılabilirliğini artıracak dört büyük projenin yapım çalışmaları devam etmektedir. Mesafeyi 50 km, ulaşım süresini ise yaklaşık bir saat kısaltacak Yeni Konya-Antalya yolu, Konya'nın güney ilçelerini Akdeniz'e bağlayan Taşkent-Alanya yolu, Konya-Karaman-Mersin yolu yenileme çalışması ve 120km'lik Konya çevre yolunun önümüzdeki dönemlerde tamamlanması beklenmektedir. Çevre yolunun ilk etabı tamamlanmıştır. Afyon-Konya-Pozantı yolu aynı zamanda TEM ve E-Road (E981) atamasına sahip olup, Ankara-Antalya yolu ise TRACECA ağına dâhil edilmiştir. Konya, Afyon üzerinden E96,Pozantı ve Kulu üzerinden E-90 yollarına bağlanmaktadır; Konya bu sayede Mersin limanına erişim sağlamaktadır. DEMİRYOLU ULAŞIMI: 1898'den beri Konya’nın demir yolu bağlantısı faaldir. Konya’dan geçen trenler; Toros Ekspresi, İç Anadolu Mavi Treni ve Meram Ekspresidir. Demiryolu ulaşımında en önemli çalışma, başarıyla bitirilmiş olan ve halen hizmet veren Konya-Ankara arası hızlı tren projesidir. Bu projenin 2011 yılında tamamlanmasıyla, Konya-Ankara arası ulaşım süresi 1 saat 40 dakikaya inmiş ve Konya demiryolu ulaşımında önemli ilerleme kaydedilmiştir. 2013 yılında ise Konya-Eskişehir arası hızlı tren seferleri başlamıştır. 2015 yılında ise Konya-İstanbul hızlı tren seferleri başlamıştır. 2022 yılında ise Konya-Karaman hızlı tren seferleri başlamıştır. Konya’ya Ankara’dan hızlı tren bağlantısı olmakla beraber yük taşımacılığında kullanılmamaktadır. Konya’yı Mersin ve Antalya’ya ulaştıracak Yüksek Hızlı Tren çalışmaları devam etmektedir. Konya-Karaman arası demiryolu 102 kilometredir. Karaman-Taşucu limanı arasında yapılması planlanan demiryolu ise 160 kilometre olarak düşünülmektedir. Konya-Mersin arasındaki mevcut demiryolu ise 388 kilometredir. HAVAYOLU ULAŞIMI: Hava yolu ulaşımı, 3. Ana Jet Üs Komutanlığına ait askeri havaalanına ilave edilen sivil tesislerle sağlanmaktadır. Konya-İstanbul arasında çeşitli şirketlerin tarifeli uçak seferleri bulunmaktadır. Konya-İstanbul arasında her gün karşılıklı 11 sefer düzenlenmekte, yaz aylarında ise Amsterdam, Kopenhag, Oslo, Düsseldorf, Stuttgart, Rotterdam gibi Avrupa kentlerine doğudan uçuş imkanı sağlanmaktadır."
+                        android:textAlignment="center"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/circleImageView3"></TextView>
+
+                </LinearLayout>
+            </ScrollView>
+
+
+
+
+
+        </LinearLayout>
+
+
+</layout>

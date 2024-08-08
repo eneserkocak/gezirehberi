@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_screen"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            tools:context=".viewMyCity.CultureFragment">
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/alaad"
+                app:civ_border_color="@color/app_color"
+                app:civ_border_width="3dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></de.hdodenhof.circleimageview.CircleImageView>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageView3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="105dp"
+                android:src="@drawable/mevlanatarihi"
+                app:civ_border_color="@color/app_color"
+                app:civ_border_width="3dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></de.hdodenhof.circleimageview.CircleImageView>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageView2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="105dp"
+                android:layout_marginEnd="40dp"
+                android:src="@drawable/aziziye"
+                app:civ_border_color="@color/app_color"
+                app:civ_border_width="3dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></de.hdodenhof.circleimageview.CircleImageView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintTop_toBottomOf="@+id/circleImageView2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Konya ili, MÖ 7 bin yılından beri yerleşim yeri olmuş, pek çok medeniyete beşiklik etmiştir. Konya'nın, ülkemizin en eski yerleşim merkezleri arasında yer aldığı söylenebilir. Çumra Çatalhöyük, sadece ülkemizin değil; dünya ölçüsünde yemek kültürünün ilk defa başladığı, tarımın yapıldığı, ateşin kullanıldığı, yerleşik hayata geçildiği, vahşi hayvan saldırılarına karşı ortak savunmanın yapıldığı merkez olarak tanınır. Çatalhöyük, Neolitik; Erbaba ve Karahöyük, Kalkolitik; Alaeddin Tepesi, Eski Tunç Devri merkezleridir. Tarih devirlerinde Hititler ve Lidyalılar MÖ 6. Yüzyılda, Persler MÖ 4. Yüzyılda, Büyük iskender, Selevkoslar, Bergama krallığı MÖ 2. Yüzyılda, Roma MS 395'te Konya ve çevresine hakim oldular. 7. yüzyıl başlarında Sasaniler, aynı yüzyılın ortalarında Muaviye komutasındaki Emeviler, şehri geçici olarak işgal ettiler. 10. yüzyıla kadar bir Bizans eyaleti olan Konya; Müslüman Arapların akınlarına maruz kaldı. Malazgirt Zaferi'nden önce Konya'ya ilk gelen Türk akıncıları Selçuklular oldu (1069). Fetihle Konya’da Türk- islam egemenliği dönemi başlamıştır. 1097'de 1. Haçlı Seferi sırasında Konya başkent oldu. Böylece tarihinde yeni bir sayfa daha açılan Konya, günden güne gelişti, pek çok mimari eserle süslendi ve kısa zamanda Anadolu'nun en gelişmiş şehirlerinden biri oldu. Selçukluların düşmesine kadar (1308) Konya, başkent olarak kaldı. Sonra Karamanoğulları Beyliği'nin en büyük şehri olarak Karamanoğulları’nca yönetildi. 1465’de Karamanoğulları Beyliği’ni ortadan kaldıran Fatih, 1470'te imparatorluğun Rûmeli (Sofya), Anadolu (Kütahya), Rûm (Tokat) Eyaletlerinden sonra 4. Eyalet olarak Karaman eyaletini, merkezi Konya şehri olmak üzere kurdu. Tarihi eserleri bakımından Türklüğün sayılı şehirleri arasında yer alan Konya, Selçuklulara iki asırdan fazla başkentlik yapması sebebiyle, Türk mimarisinin gözde eserleri sayılan âbidelerle süslenmiştir. Bu eserlerin başında Konya’nın sembolü sayılan Mevlânâ Müzesi gelir. Alaeddin Camii, Sahip Ata Külliyesi, Karatay Medresesi, ince Minareli Medrese, Sırçalı Medrese Selçuklu dönemi eserlerindendir. Selçuklu ve Beylikler dönemine ait pek çok cami, hamam, çeşme, köprü, tekke, kervansaray, hastane, suyolu ve diğer altyapı kuruluşlarına sahip bulunan Konya'da Osmanlı dönemine ait eserlerin en tanınmışı ise Aziziye Camii’dir. Konya 12. yüzyılın ilk yarısında Sultan Alaeddin Keykûbat (1219-1236) devri ve sonrasında, dünyanın ilim ve sanat merkezi özelliğini kazanmıştır. Türk-islam dünyasının her tarafından gelen bilim ve sanat adamları Konya'da toplanmışlardır. Bahaeddin Veled, Muhyiddin Arabî, ve Mevlânâ Celaleddin Rûmî, Sadreddin Konevî, Şemsî Tebrizî, Kadı Burhaneddin, Kadı Siraceddin, Urmemi gibi bilgin, mutasavvıf ve filozoflar kıymetli eserlerini Konya'da hazırlayarak, dünyaya Işık tutmuşlardır. Konya’nın AltIn Çağı denilebilecek bu özelliği, 12. yüzyıl ortalarına kadar devam etmiştir. Nasreddin Hoca ise güldüren ve düşündüren fıkraları ile Konya’nın kültür ve sosyal hayatının gelişmesinde asırlardır rol almış olan bilge bir kişidir. Konya, 1467 yılından beri Osmanlı sınırlarındadır. Doğu seferlerine çıkan Osmanlı sultanlarından Yavuz Sultan Selim, Kanunî Sultan Süleyman ve II. Murat’ın uğrak yeridir. İlim, kültür ve sanat hareketleri kesintisiz devam eder. Ünlü şairler, bilginler, tarihçi ve filozofların toplandığı merkez halindedir. Bu dönemde de mimari yönden; camiler, çeşmeler, medreseler vb. eserler meydana getirilir."
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/circleImageView3"></TextView>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+
+    </LinearLayout>
+</layout>

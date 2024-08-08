@@ -1,0 +1,292 @@
+[
+ {
+  "id": 101,
+  "placeName": "Beyşehir Gölü",
+  "explanation": "Beyşehir Gölü, Göller Yöresi'inde, Konya ve Isparta illeri topraklarında bulunan, Türkiye'nin üçüncü büyük gölü, en büyük tatlı su gölüdür. Batı ve güneyinde Toros Dağları, doğusunda volkanik Erenler Dağı, kuzeybatı güneydoğu yönünde ise Sultan Dağları ve Anamas Dağı ile çevrili tektonik bir çukurlukta yer almaktadır.",
+  "district": "Beyşehir",
+  "lat": "37.680826",
+  "long": "31.719640",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?q=bey%C5%9Fehir+g%C3%B6l%C3%BC&oq=bey%C5%9Fehir+g%C3%B6l%C3%BC&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgoIARAuGLEDGIAEMgYIAhBFGEAyDggDEEUYJxg7GIAEGIoFMgYIBBBFGDsyDQgFEC4YrwEYxwEYgAQyCggGEAAYsQMYgAQyBwgHEAAYgATSAQgzODEwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8"
+ },
+ {
+  "id": 102,
+  "placeName": "Tuz Gölü",
+  "explanation": "Tuz Gölü, Türkiye'nin İç Anadolu Bölgesi'nde Ankara, Konya ve Aksaray illerinin sınırının kesiştiği yerde yer alan tuz gölüdür. Türkiye'nin tuz ihtiyacının %40'ı bu gölden sağlanır",
+  "district": "Kulu-Cihanbeyli",
+  "lat": "38.764026",
+  "long": "33.282967",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?q=tuz+g%C3%B6l%C3%BC&sca_esv=6de66992da2ba51e&sxsrf=ADLYWIIFuzv9r_Q-0lzycQpakUcwP9vLQw%3A1719843903561&ei=P7yCZoj2IaiL7NYPkbK3mAo&gs_ssp=eJzj4tTP1TcwMzUrSjdg9OIqKa1SSD-8LefwHgBQFwhc&oq=tuz&gs_lp=Egxnd3Mtd2l6LXNlcnAiA3R1eioCCAEyChAjGIAEGCcYigUyEBAuGIAEGLEDGEMYgwEYigUyDRAAGIAEGLEDGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyFhAuGIAEGLEDGEMYgwEYxwEYigUYrwEyCBAAGIAEGLEDMggQABiABBixAzIUEC4YgAQYsQMYgwEYxwEYigUYrwEyChAAGIAEGEMYigUyHxAuGIAEGLEDGEMYgwEYigUYlwUY3AQY3gQY4ATYAQFIhhJQAFicA3AAeAGQAQCYAfEBoAGGBaoBBTAuMS4yuAEByAEA-AEBmAIDoAKuBcICEBAuGIAEGMcBGCcYigUYrwHCAgQQIxgnwgIKEC4YgAQYQxiKBcICEBAuGIAEGNEDGMcBGCcYigXCAhAQLhiABBhDGMcBGIoFGK8BwgIREC4YgAQYsQMY0QMYgwEYxwHCAgsQLhiABBixAxiDAZgDALoGBggBEAEYFJIHAzItM6AHzjg&sclient=gws-wiz-serp"
+ },
+ {
+  "id": 103,
+  "placeName": "Meke Gölü",
+  "explanation": "Meke Gölü, Konya'nın Karapınar ilçesinde, volkanik gaz patlaması sonucu oluşan bir maarın suyla dolmasıyla günümüzdeki haline gelen ve ortasında adacıklar bulunan göl. Karapınar Düzlüğü'nde, Karapınar-Ereğli yolunun 7. km'sindeki sapaktan 2 km içeridedir. Göl ve birincil maarın uzunluğu 800 metre, genişliği 500 metredir. Göl 12 metre derinliğindedir. Göl adını çevrede yaşayan meke kuşlarından alır",
+  "district": "Karapınar",
+  "lat": "37.687004",
+  "long": "33.636584",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?gs_ssp=eJzj4tZP1zc0MqwoLLIoM2D04s5NzU5VSD-8LefwHgBrWAmL&q=meke+g%C3%B6l%C3%BC&oq=mke+g%C3%B6l%C3%BC&gs_lcrp=EgZjaHJvbWUqDAgBEC4YChixAxiABDIGCAAQRRg5MgwIARAuGAoYsQMYgAQyCQgCEAAYChiABDIJCAMQABgKGIAEMgkIBBAAGAoYgAQyCQgFEAAYChiABDIJCAYQABgKGIAEMgkIBxAAGAoYgAQyCQgIEAAYChiABNIBCDM5MTRqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8"
+ },
+ {
+  "id": 104,
+  "placeName": "Acı Göl",
+  "explanation": "Acıgöl, Konya ili, Karapınar ilçesi sınırları içinde yer alan volkanik maar gölüdür. Karapınar Düzlüğü'nde, Meke Krater Gölü'nün kuzeydoğusunda yer alır. Karapınar-Ereğli yolu üzerinde 8. km'dedir. Acıgöl, Karacadağ'ın güneydoğu kenarında volkanik alanda patlamayla oluşan bir çukurda oluşmuştur. Göl kıyıları oldukça diktir. Magnezyum sülfatdan dolayı suları acı-tuzludur. Gölde bakteri ve Arkea türlerinin bulunduğu belirlenmiştir. Marinobacter, Idiomarina ve Thalassospira türleri Acıgöl'de ve Türkiye'de ilk kez tanımlanmıştır",
+  "district": "Karapınar",
+  "lat": "37.714576",
+  "long": "32.662667",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?q=konya+ac%C4%B1g%C3%B6l&sca_esv=6de66992da2ba51e&sxsrf=ADLYWILDRf74txAsfk85kA6DkIu1bcTUVQ%3A1719844000497&ei=oLyCZtiDHoarxc8PzO2-qA0&oq=konya+ac%C4%B1+g%C3%B6l&gs_lp=Egxnd3Mtd2l6LXNlcnAiD2tvbnlhIGFjxLEgZ8O2bCoCCAAyBxAAGIAEGAoyBxAAGIAEGAoyBxAAGIAEGAoyBxAAGIAEGAoyBxAAGIAEGAoyBxAAGIAEGAoyBxAAGIAEGAoyBxAAGIAEGAoyCBAAGBYYChgeMggQABiABBiiBEiWHlAAWOwRcAB4AZABAJgBpwKgAYkWqgEFMC40Ljm4AQHIAQD4AQGYAg2gAoQXwgIKECMYgAQYJxiKBcICBBAjGCfCAgoQABiABBhDGIoFwgIKEC4YgAQYQxiKBcICBRAAGIAEwgIQEC4YgAQYQxjHARiKBRivAcICEBAAGIAEGLEDGEMYgwEYigXCAg0QABiABBixAxhDGIoFwgIREC4YgAQYsQMYgwEYxwEYrwHCAgsQABiABBixAxiDAcICCBAAGIAEGLEDwgILEC4YgAQYxwEYrwHCAgUQLhiABMICDRAuGIAEGMcBGAoYrwHCAgcQLhiABBgKmAMAkgcIMC4xLjExLjGgB5zDAQ&sclient=gws-wiz-serp"
+ },
+ {
+  "id": 105,
+  "placeName": "Çıralı Gölü",
+  "explanation": "Çıralı Obruğu, Konya'nın Karapınar ilçesi Yenikent Bucağının Kuzey batısında Akviran Yaylası'ndadır. Yaklaşık 250 m çapında olan kalker tabakası içerisindeki bu gölün kenarları 80 m yüksekliğinde dik bir çanak şeklindedir. Obruğun derinliği 125 metredir. Obruk içinde bulunan gölün derinliği ise 35 m'dir.",
+  "district": "Karapınar",
+  "lat": "37.931715",
+  "long": "33.413289",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?q=%C3%87%C4%B1ral%C4%B1+G%C3%B6l%C3%BC%2C+Fevzi+Pa%C5%9Fa%2C+Karap%C4%B1nar%2FKonya&sca_esv=6de66992da2ba51e&sxsrf=ADLYWIJYGpEgAN2xz5yOwOprJz_ZUjApGg%3A1719844128381&ei=IL2CZtnnFrapxc8Pwoav8AU&oq=%C3%87%C4%B1ral%C4%B1+G%C3%B6l%C3%BC+Konya&gs_lp=Egxnd3Mtd2l6LXNlcnAiFsOHxLFyYWzEsSBHw7Zsw7wgS29ueWEqAggAMgIQJjIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBDIIEAAYgAQYogRI4TlQAFj5JnAAeACQAQCYAZQDoAHWHqoBCjAuMS4xNC4xLjG4AQHIAQD4AQGYAhGgArAgwgIKECMYgAQYJxiKBcICBBAjGCfCAgsQLhiABBjHARivAcICDhAAGIAEGLEDGIMBGIoFwgIIEAAYgAQYsQPCAgUQABiABMICCxAuGIAEGLEDGIMBwgIKEAAYgAQYQxiKBcICEBAuGIAEGEMYxwEYigUYrwHCAgUQLhiABMICCxAAGIAEGLEDGIMBwgINEAAYgAQYsQMYQxiKBcICHRAuGIAEGLEDGIMBGMcBGJgFGJkFGIoFGJ4FGK8BwgIaEC4YgAQYsQMYgwEYlwUY3AQY3gQY4ATYAQHCAhEQLhiABBjHARiYBRiZBRivAcICERAuGIAEGMcBGJgFGJsFGK8BwgIOEC4YgAQYxwEYmAUYrwHCAhAQLhiABBjHARiYBRgKGK8BwgIUEC4YgAQYlwUY3AQY3gQY4ATYAQHCAggQLhgWGAoYHsICBhAAGBYYHsICCBAAGKIEGIkFwgIGEC4YFhgewgIVEC4YFhgeGJcFGNwEGN4EGOAE2AEBwgIIEAAYCBgNGB6YAwC6BgYIARABGBSSBwgyLTE1LjEuMaAH0rQB&sclient=gws-wiz-serp"
+ },
+ {
+  "id": 106,
+  "placeName": "Eğrigöl",
+  "explanation": "Antalya ve Konya sınırında, Geyik Dağları'nın eteklerindeki Taşeli platosunda yer alan Eğrigöl, el değmemiş doğası ve endemik bitkileriyle yaylacılar, doğa ve fotoğraf tutkunları ile kampçıları misafir ediyor. Torosların en yüksek zirvelerinden Geyik Dağları'nın eteğinde yer alan 2 bin 100 metre rakımlı Eğrigöl, bitki çeşitliliği, farklı renklerdeki çiğdemler ve endemik bitkileriyle dikkati çekiyor. Kıvrılarak göle akan çayların oluşturduğu menderesler arasında rengarenk açan çiçekler, dağlarda damar damar uzanan kar örtüsü ile eşsiz bir manzara oluşturuyor. Mayıs ayına rağmen kar kalınlığının yer yer 2-3 metreye çıkıyor. Sahil kentlerinde denize girilirken, aynı dönemde ziyaretçilerine kayak yapma imkanı da sunan göl, piknik için gelenleri de ağırlıyor.",
+  "district": "Hadim",
+  "lat": "36.935783",
+  "long": "32.203057",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?q=e%C4%9Frig%C3%B6l+konya&sca_esv=6de66992da2ba51e&sxsrf=ADLYWILjDvBvKEHEQdakIdUfHnGCIjW5dw%3A1719844463779&ei=b76CZoadL5WG7NYPtpi66A8&ved=0ahUKEwjGkNTyh4aHAxUVA9sEHTaMDv0Q4dUDCBA&uact=5&oq=e%C4%9Frig%C3%B6l+konya&gs_lp=Egxnd3Mtd2l6LXNlcnAiD2XEn3JpZ8O2bCBrb255YTIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYR0jHBVCzBFizBHABeACQAQCYAcwBoAHMAaoBAzItMbgBA8gBAPgBAZgCAaACDZgDAIgGAZAGCJIHATGgB94E&sclient=gws-wiz-serp"
+ },
+ {
+  "id": 107,
+  "placeName": "Dipsiz Göl",
+  "explanation": "Dipsiz Göl, Toroslar’ın kuzey yamaçlarında, Antalya’nın Akseki ilçesi ve Konya’nın Bozkır ilçesi sınırında, Bozkır’a yaklaşık 30 km. mesafede yer alıyor. Gölün yakınlarında, yerleşim alanları da mevcut. 1702 metre rakımda bulunan ve yaklaşık 72 metre derinliğe sahip olan Dipsiz Göl, zindelik veren mis gibi havası, doğal güzelliği, el değmemiş bakir tabiatı ve capcanlı mavi suları ile ‘Toroslar’ın Nazar Boncuğu’ olarak nitelendiriliyor. Çevresi, bahar ve yaz aylarında rengarenk çiçeklerle çevrelenen Dipsiz Göl, özellikle üst yüzeyinde açan nilüfer çiçekleri ile misafirlerine tam bir görsel şölen yaşatıyor. Masmavi sularının, her mevsim aynı berraklıkta kalmayı başardığı göl, yaz mevsiminde Antalya, Manavgat, Akseki ile Konya'nın Bozkır ve Seydişehir ilçelerinden çok sayıda ziyaretçiyi ağırlıyor. Sızıntılarla beslendiği için suları daima aynı seviyede kalabilen gölde, alabalık ve aynalı sazan gibi balık türleri yaşıyor. Doğaseverler ve fotoğraf tutkunları için cazibe merkezi olan gölün tertemiz ve serin sularında yüzebilir ya da lezzetli balıklar tutabilirsiniz. Bu ziyaretçilerine eşsiz hazlar veren büyüleyici manzaranın yanı başında piknik yaparak, keyifli ve huzurlu saatler geçirebilirsiniz.",
+  "district": "Bozkır",
+  "lat": "37.102259",
+  "long": "32.040403",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?q=dipsiz+g%C3%B6l+konya&sca_esv=6de66992da2ba51e&sxsrf=ADLYWIJFcde7BikfwwE8FHHcPXNW-E0b1w%3A1719844830982&ei=3r-CZp7DO5yE7NYP9PSDgA4&gs_ssp=eJzj4tZP1zcsN0gpt8ytMmD0EkzJLCjOrFJIP7wtRyE7P68yEQCtpwt7&oq=dipsiz+g%C3%B6l+konya&gs_lp=Egxnd3Mtd2l6LXNlcnAiEWRpcHNpeiBnw7ZsIGtvbnlhKgIIADIFEC4YgAQyAhAmMggQABiABBiiBEilHVDwBlizD3ABeAGQAQCYAZ4EoAGIDqoBCTItMi4yLjAuMbgBAcgBAPgBAZgCBqACug7CAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICDRAuGIAEGLADGEMYigXCAg4QABiwAxjkAhjWBNgBAcICGRAuGIAEGLADGEMYxwEYyAMYigUYrwHYAQLCAhMQLhiABBiwAxhDGMgDGIoF2AECwgILEC4YgAQYxwEYrwHCAgoQABiABBhDGIoFwgIKEC4YgAQYQxiKBcICBRAAGIAEwgIQEC4YgAQYQxjHARiKBRivAcICGhAuGIAEGMcBGK8BGJcFGNwEGN4EGOAE2AEDwgIREC4YgAQYxwEYmAUYnQUYrwHCAgYQABgWGB6YAwCIBgGQBhO6BgYIARABGAm6BgYIAhABGAi6BgYIAxABGBSSBwkxLjAuMi4xLjKgB64z&sclient=gws-wiz-serp"
+ },
+ {
+  "id": 108,
+  "placeName": "Akşehir Gölü",
+  "explanation": "Akşehir Gölü, Sultan Dağları ile Emir Dağı arasındaki çöküntü alanında yer alır. Akşehir ilçesinin yanında İç Anadolu Bölgesi'nde bulunan bir göldür. İdari olarak Konya ve Afyonkarahisar illeri sınırları içerisinde yer almaktadır. Kapalı bir havzada bulunduğundan dışarıya akıntısı yoktur. Buna karşın suları çok az tuzludur. Kıyılardan göle karışan tatlı su kaynaklarının bolluğu, kıyılarda suyun tatlılaşmasını sağlar. Tuzluluk orta kesimlerde ve kuzeydoğuda daha belirginleşir.",
+  "district": "Akşehir",
+  "lat": "38.499884",
+  "long": "31.417768",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?q=ak%C5%9Fehir+g%C3%B6l%C3%BC&sca_esv=6de66992da2ba51e&sxsrf=ADLYWIJygurmwZJJyTHcc968pxf-Y6xx0g%3A1719844837196&ei=5b-CZqTGC_yFxc8P7uWCuAk&gs_ssp=eJzj4tLP1TcwLswzsawwYPTiT8w-Oj81I7NIIf3wtpzDewCNKAtU&oq=ak%C5%9Fehir+g%C3%B6l%C3%BC&gs_lp=Egxnd3Mtd2l6LXNlcnAiD2FrxZ9laGlyIGfDtmzDvCoCCAAyBRAuGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMhQQLhiABBiXBRjcBBjeBBjgBNgBAUj5HFAAWLgVcAB4AJABAJgB7gGgAaATqgEFMC41Lje4AQHIAQD4AQGYAgygAu8UwgIKECMYgAQYJxiKBcICChAuGIAEGCcYigXCAgQQIxgnwgITEC4YgAQYxwEYJxiKBRiOBRivAcICChAAGIAEGEMYigXCAhQQLhiABBixAxjRAxiDARjHARiKBcICERAuGIAEGLEDGNEDGIMBGMcBwgIKEC4YgAQYQxiKBcICCxAAGIAEGLEDGIMBwgIQEC4YgAQYQxjHARiKBRivAcICExAuGIAEGEMYxwEYigUYjgUYrwHCAg4QLhiABBixAxiDARiKBcICFxAuGIAEGIoFGJcFGNwEGN4EGOAE2AEBwgILEC4YgAQYxwEYrwHCAhAQABiABBixAxhDGMkDGIoFwgIIEAAYgAQYsQPCAhEQLhiABBjHARiYBRiZBRivAZgDALoGBggBEAEYFJIHBjAuMS4xMaAH2s0B&sclient=gws-wiz-serp"
+ },
+ {
+  "id": 109,
+  "placeName": "Çavuşçugöl",
+  "explanation": "Çavuşçu Gölü veya Ilgın Gölü, Konya ili, Ilgın ilçesi sınırlarında bulunan tatlı sulu, tektonik bir göldür. Doğanhisar Çayı, Çiğil Deresi ve Bulcuk Çayı ile beslenir. Çavuşçu Gölü, 27 km² alana sahip, etrafı sazlık ve bataklıklarla kaplıdır. Deniz seviyesinden yüksekliği 1026 m, derinliği ise 2–10 m'dir.",
+  "district": "Ilgın",
+  "lat": "38.347943",
+  "long": "31.877138",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?q=%C3%A7avu%C5%9F%C3%A7u+g%C3%B6l%C3%BC&sca_esv=6de66992da2ba51e&sxsrf=ADLYWIIgWfgD9AZ9p8PiP-ufbF49mSJZ4A%3A1719844998906&ei=hsCCZtz1NtiL7NYPz5mE4Aw&gs_ssp=eJzj4tZP1zc0MigqMk3PM2D0Ejy8PLGs9Oj8w8tLFdIPb8s5vAcAvAwNzA&oq=%C3%A7avu%C5%9F&gs_lp=Egxnd3Mtd2l6LXNlcnAiB8OnYXZ1xZ8qAggAMgoQLhiABBhDGIoFMhAQLhiABBhDGMcBGIoFGK8BMgoQLhiABBhDGIoFMgUQLhiABDIFEAAYgAQyFBAuGIAEGLEDGIMBGMcBGI4FGK8BMgUQLhiABDIREC4YgAQYxwEYmAUYmQUYrwEyBRAAGIAEMgsQLhiABBjHARivATIZEC4YgAQYQxiKBRiXBRjcBBjeBBjgBNgBAUjnHlAAWJ4JcAB4AJABAJgB_gGgAfMIqgEFMC4xLjS4AQPIAQD4AQGYAgagAtwbwgIEECMYJ8ICChAjGIAEGCcYigXCAgoQABiABBhDGIoFwgILEAAYgAQYsQMYgwHCAg4QABiABBixAxiDARiKBcICFxAuGIAEGLEDGIMBGMcBGIoFGI4FGK8BwgIIEC4YgAQYsQPCAggQABiABBixA5gDALoGBggBEAEYFJIHBzItNS44LTGgB7R4&sclient=gws-wiz-serp"
+ },
+ {
+  "id": 110,
+  "placeName": "Akgöl",
+  "explanation": "Akgöl, Konya'nın Ereğli ve Karapınar ilçeleriyle, Karaman'ın Ayrancı ilçesi sınırları içinde yer alan bir sulak sahadır. Bu bölge, sazlık, bataklık, çamur adacıkları, çayırlar ve çorak düzlüklerden oluşmaktadır. Toplamda 6680 hektarlık bir alanı kapsar. Akgöl, 1992 yılında Kültür Bakanlığı tarafından \"I. Derecede Doğal Sit Alanı\" olarak ilan edilmiş ve 1995 yılında da Orman Bakanlığı Milli Parklar ve Av-Yaban Hayatı Koruma Genel Müdürlüğü tarafından \"Tabiatı Koruma Alanı\" olarak kabul edilmiştir",
+  "district": "Ereğli",
+  "lat": "37.512616",
+  "long": "33.775379",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?q=akg%C3%B6l+g%C3%B6l%C3%BC+konya&sca_esv=6de66992da2ba51e&sxsrf=ADLYWIIktZWGtp0kbp3OricbGPNqT0wgmg%3A1719845204151&ei=VMGCZrTCCPyUxc8Pvf2EgAY&ved=0ahUKEwi0vNjTioaHAxV8SvEDHb0-AWAQ4dUDCBA&uact=5&oq=akg%C3%B6l+g%C3%B6l%C3%BC+konya&gs_lp=Egxnd3Mtd2l6LXNlcnAiE2FrZ8O2bCBnw7Zsw7wga29ueWEyBRAhGKABMgUQIRigATIFECEYnwUyBRAhGJ8FSOEaUM4KWIERcAF4AZABAJgB0wGgAakJqgEFMC4yLjS4AQPIAQD4AQGYAgegAugJwgIKEAAYsAMY1gQYR8ICDhAAGLADGOQCGNYE2AEBwgITEC4YgAQYsAMYQxjIAxiKBdgBAsICBRAAGIAEwgIFEC4YgATCAgsQLhiABBjHARivAcICBhAuGBYYHsICBhAAGBYYHsICCBAAGBYYChgewgIIEAAYgAQYogTCAgQQIRgVwgIHECEYoAEYCpgDAIgGAZAGDroGBggBEAEYCboGBggCEAEYCJIHBTEuMi40oAejIw&sclient=gws-wiz-serp"
+ },
+ {
+  "id": 111,
+  "placeName": "Suğla Gölü",
+  "explanation": "Suğla Gölü veya Yalıhüyük Gölü, Türkiye'nin Konya ilinin güneybatı kesiminde yer alan göl. Oluşumu Karstiktir. Yağışlı yıllarda alanı iyice genişlemekte kurak yıllarda ise göl kurumakta ve alüvyonlu göl tabanı ortaya çıkarak, iyi bir tarım alanı oluşturmaktadır. Suyu tatlıdır. Beyşehir Gölü'nden çıkan sular eskiden Suğla Gölü'ne dökülmekteydi. Beyşehir Gölü çıkışının regülatör yapılarak sular kanalize edildi. Beyşehir Gölü'nden çıkan sular Suğla'ya uğramadan Çarşamba Suyu'na bağlandı. Suğla Gölü önemli bir kaynağında mahrum oldu ve sonucunda küçüldü. 16.000 hektarlık göl, 2.500 hektara kadar küçüldü. Gölün geri kazanılmasına 1999 yılında karar verilerek rezervuar alanına çevirme kararı alınmıştır. 2003 yılında proje tamamlanmış, 4.000 hektarlık alan göl haline gelmiştir. Küçülen gölün eski tabanı tarım arazisine çevrilmiştir. Fakat doğal dengesi bozulan göl yağışlı mevsimlerde taşarak tarım arazilerine zarar vermektedir",
+  "district": "Seydişehir",
+  "lat": "37.338284",
+  "long": "32.032308",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?q=su%C4%9Fla+g%C3%B6l%C3%BC+konya&sca_esv=6de66992da2ba51e&sxsrf=ADLYWILAQheXzt5nlaSFD9yvy-wq5t-3Bg%3A1719845212080&ei=XMGCZsLGBP2Sxc8Pk5qa6AY&gs_ssp=eJzj4tTP1TdIK6jIyjVg9BIuLj0yPydRIf3wtpzDexSy8_MqEwHD1A0H&oq=su%C4%9Fla+g%C3%B6l%C3%BC+konya&gs_lp=Egxnd3Mtd2l6LXNlcnAiE3N1xJ9sYSBnw7Zsw7wga29ueWEqAggAMgUQLhiABDICECYyCBAAGIAEGKIEMhQQLhiABBiXBRjcBBjeBBjgBNgBAUioFFAAWIUKcAB4AJABAJgBygGgAb4HqgEFMC40LjG4AQHIAQD4AQGYAgSgAp8GwgIGEAAYBxgewgIGEC4YBxgewgIIEAAYBxgeGA_CAggQABgHGAgYHsICCBAAGAgYChgewgIVEC4YBxgeGJcFGNwEGN4EGOAE2AEBwgIHEC4YgAQYDcICFhAuGIAEGA0YlwUY3AQY3gQY4ATYAQGYAwC6BgYIARABGBSSBwUwLjIuMqAHrR8&sclient=gws-wiz-serp"
+ },
+ {
+  "id": 112,
+  "placeName": "Balatini Mağarası",
+  "explanation": "Uzunluğu 1830, yüksekliği 45 metre olan bu mağara bu alandaki en kapsamlı, en uzun ve en güzel mağaradır. Genişçe kireç taşlarıyla kaplı nehir çıkıntısının sağ tarafından geçen faal bir dere mağarasıdır. Balatini mağarası üst üste bulunan iki farklı seviyeden oluşmuştur. Üst katı oluşturan fosil kolun zemini tamamen mağara kili ile kaplıdır ve gelen ziyaretçilerin yapıp bıraktığı heykelciklerle dolu Heykel odası ile sonlanmaktadır. Alt katta ise debisinin az olduğu dönemlerde su içinden yürünerek ilerlenebilmektedir. Sadece biri 5 m’den daha derin olan üç adet dev cadı kazanı, geçiş tekniği ya da bot kullanılarak geçilebilir. Travertenler, heykel odası ve dev cadı kazanları mağaranın görülmeye değer güzellikleridir. Mağaradaki mezar kalıntıları ve diğer işaretler buranın daha önce yaşam alanı olarak kullanıldığını göstermektedir.",
+  "district": "Beyşehir",
+  "lat": "37.358607",
+  "long": "31.589089",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?q=balatini+ma%C4%9Faras%C4%B1&sca_esv=6de66992da2ba51e&sxsrf=ADLYWIJ0rfJhUJrWmwTOKG91LO7zHkxGEw%3A1719845301243&ei=tcGCZuWzDvyK7NYP8euDyAE&gs_ssp=eJzj4tVP1zc0TC42LM-zNMkxYLRSNagwNEk2STFJSzSyNDYzSEsztTKoSDYwNTc3s0wyN0k2MDQwS_USTkrMSSzJzMtUyE08Mj-xKLH4yEYAHsgXjQ&oq=balat&gs_lp=Egxnd3Mtd2l6LXNlcnAiBWJhbGF0KgIIADIQEC4YgAQYQxjHARiKBRivATIKEC4YgAQYQxiKBTIKEC4YgAQYQxiKBTIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTIFEAAYgAQyChAAGIAEGEMYigUyCBAAGIAEGLEDMgsQABiABBixAxiDATIIEAAYgAQYsQMyHxAuGIAEGEMYxwEYigUYrwEYlwUY3AQY3gQY4ATYAQFI-w9QAFiyBXAAeACQAQCYAcECoAHaCaoBBzAuMS4yLjK4AQPIAQD4AQGYAgWgApUKwgIKECMYgAQYJxiKBcICBBAjGCfCAhkQLhiABBhDGIoFGJcFGNwEGN4EGOAE2AEBwgIQEC4YgAQYxwEYJxiKBRivAcICCxAuGIAEGLEDGIMBmAMAugYGCAEQARgUkgcHMC4xLjIuMqAH00s&sclient=gws-wiz-serp"
+ },
+ {
+  "id": 113,
+  "placeName": "Körükini Mağarası",
+  "explanation": "Giriş 30 metre yüksekliğinde ve 12 metre genişliğinde etkileyici bir görünümdedir. Geçit içerisinde boyutları eşit genişlikte olan su ile aşınmış kaya parçaları bulunur. 130 metre ileride geçitlerin solunda derin bir göl vardır. Çıkışa ulaşmadan hemen hemen 100 metre öncesi birçok havuzdan, sarkıt ve dikitlerden oluşmaktadır. Yaz aylarında suyu serin ve berrak olan bu havuzların içi kısmen boştur. Körükini Mağarasının içinden Uzunsu Deresi geçmektedir. Mağaradan çıkan su değirmen vadisine daha sonra da Değirmenini Mağarasına girmektedir. Tamamıyla aktif olan mağarada bot kullanımı hatta büyük kaya blokları arasından şelaleler yapan suyu geçme zevki ayrıca bir deneyim gerektirmektedir. Mağaraya giriş için yaz ve sonbahar ayları en uygun zamanlardır. Bahar ayları aşırı su, sifonlar, şelaleler nedeniyle tehlikeli olabilir.",
+  "district": "Beyşehir",
+  "lat": "37.348709",
+  "long": "31.627219",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?q=k%C3%B6r%C3%BCkini+ma%C4%9Faras%C4%B1&sca_esv=6de66992da2ba51e&sxsrf=ADLYWIIB1ANAbstUe3YsSO1tD3XEJ-I1kA%3A1719845405566&ei=HcKCZp2aIvyQxc8PssWU4AE&gs_ssp=eJzj4tVP1zc0zKiKtzQqtzQ0YLRSNagwNEk2STE1NzBKtjQ1MEhMszKoMLMwMU4yMzY0t0g1t0y0SPMSzT68rejwnuzMvEyF3MQj8xOLEouPbAQATMwZbA&oq=k%C3%B6r%C3%BCkini+ma%C4%9Faras%C4%B1&gs_lp=Egxnd3Mtd2l6LXNlcnAiFWvDtnLDvGtpbmkgbWHEn2FyYXPEsSoCCAAyCxAuGIAEGMcBGK8BMgUQABiABDIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBDIaEC4YgAQYxwEYrwEYlwUY3AQY3gQY4ATYAQFIgxpQAFiRD3AAeACQAQCYAeUBoAGsDKoBBTAuNS4zuAEByAEA-AEBmAIHoAL4E8ICBhAAGAcYHsICCBAAGAUYBxgewgINEC4YgAQYxwEYDRivAcICBxAAGIAEGA3CAhwQLhiABBjHARgNGK8BGJcFGNwEGN4EGOAE2AEBmAMAugYGCAEQARgUkgcJMC4yLjQuNy0xoAe0MQ&sclient=gws-wiz-serp"
+ },
+ {
+  "id": 114,
+  "placeName": "Büyük Düden Mağarası",
+  "explanation": "Mağara Konya-Beyşehir-Derebucak yolundan sonra, Derebucak’dan İbradi yönünde, 18. kilometresinde, Kembos Ovası batı kıyısında yer almaktadır. Genişliği 1 km. uzunluğu 15 km. olan Kembos Ovası, bahan aylarında eriyen kar suları ve özellikle Uzunsu Deresi ile gelip toplanan suları bir başka düden olan Feyzullah Düdeni ile birlikte drene etmektedir. Bu düdenlerden batan su Altınbeşik Düdensuyu Mağarasından geçerek Manavgat Çayına karışmaktadır. Mağaranın turistik bir önemi olmamakla birlikte, speleolojik açıdan önem taşımaktadır. 714 m. uzunluğundaki düden de çok sayıda göller, dev cadı kazanları ve sifonlar bulunmakta, mağarayı zorlu hale getirmektedir.",
+  "district": "Beyşehir",
+  "lat": "37.346731",
+  "long": "31.445908",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?sca_esv=6de66992da2ba51e&sxsrf=ADLYWILlqzNSkIIZNRpmxI_hvLQ2W6fy3g:1719845448330&q=b%C3%BCy%C3%BCk+d%C3%BCden+ma%C4%9Faras%C4%B1+konya&source=lnms&fbs=AEQNm0CgMcZ11KbHg1uunEmuo39LYaLxf_n_v5Qu9vkTINnKPNxSSRV--bGiJa6CXOAP_uiHPbLwpiGDt9Ut9ZZcy-dTHFk6cnaRTJM3Wx51r69OfUrA5OOZgtWDutZoHuFj8OeIWND1r25UjBy0wvdsAYDNJWyEssTHUMzZ1Vt4lF7k3IVG_-zz9iLHjdao6Ui7ScG02wNpYVbcN_ytFCJdUDVTBO9-hw&sa=X&ved=2ahUKEwikp5DIi4aHAxWiR_EDHQUJBQoQ0pQJegQIDRAB&biw=1366&bih=641&dpr=1"
+ },
+ {
+  "id": 115,
+  "placeName": "Tınaztepe Mağarası",
+  "explanation": "Tınaztepe mağaraları, Seydişehir, Konya'da yer alan mağaradır. Dünyanın üçüncü, Türkiye'nin en büyük mağarasıdır. Toplam uzunluğu 22 km, gezilebilen bölümü 1580 metredir. Sonundaki 64 metrelik iniş dışında tamamen yatay özellikte bir mağaradır.[kaynak belirtilmeli] 2004 yılında da Mağara Dinlenme Tesisleri olarak hizmete açılmıştır. Tınaztepe Mağara Seydişehir’in 35 km. güneybatısında Keçili Köyü mevkiindedir. Mağara Mortaş boksit yatağının 5 km. batısındadır. Seydişehir-Manavgat karayolu mağaranın hemen yakınından geçer. Kretase kireçtaşları içinde gelişen mağara sistemi, üst üste bulunan üç seviyeden meydana gelmiştir. En üstteki 100 metre uzunluğundaki kat tamamen fosilleşmiştir. 1015 metre toplam uzunluğu olan orta seviye ise yarı aktiftir. Yağışlı dönemlerde içinden bol su akan bu kat’ın, sonu sifonla biter. Alttaki seviye ise büyük bir fay üzerinde gelişmiş aktif bir koldur ve düden mağara özelliğindedir.Yağışlı dönemlerde geniş bir alanın yüzey suları buraya girer. Bu sular daha güneydoğuda bulunan Susuz Güvercinlik Mağarası’ndan geçerek Suğla Gölü kenarındaki kaynaklar dan çıkarlar. Bu aktif kolun günümüze kadar araştırılan bölümünün uzunluğu 527 m.dir. Ancak tam uzunluğu henüz tespit edilememiştir. İçinde bulunan derin fakat dar göller ve sifonlar araştırmaları zorlaştırmaktadır.",
+  "district": "Seydişehir",
+  "lat": "37.248344",
+  "long": "31.926720",
+  "closing": "08:30 - 19:30",
+  "web": "https:\/\/www.google.com\/search?q=t%C4%B1naztepe+ma%C4%9Faras%C4%B1+konya&sca_esv=6de66992da2ba51e&biw=1366&bih=641&sxsrf=ADLYWIIowhgh42dPMwtE2O4e2pMm0SGwBA%3A1719845450447&ei=SsKCZqHmGsLlxc8PrtqR0AU&gs_ssp=eJzj4tZP1zc0MqpISzcoN2C0UjWoMDRJMbAwsUxKSkwyMDJJS7EyqEhJTEpONUwyM7IwNEpKSTT1ki45sjEvsaoktSBVITfxyPzEosTiIxsVsvPzKhMB7vIb0A&oq=t%C4%B1naztepe+ma%C4%9Faras%C4%B1+konya&gs_lp=Egxnd3Mtd2l6LXNlcnAiG3TEsW5henRlcGUgbWHEn2FyYXPEsSBrb255YSoCCAAyCxAuGIAEGMcBGK8BMgYQABgIGB4yBhAAGAgYHjIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBDIaEC4YgAQYxwEYrwEYlwUY3AQY3gQY4ATYAQFIjiJQAFiODHAAeACQAQCYAdQCoAHeDqoBBzAuNC40LjG4AQHIAQD4AQGYAgWgAroUwgIGEAAYBxgewgIIEAAYBxgIGB7CAg0QLhiABBjHARgNGK8BwgIcEC4YgAQYxwEYDRivARiXBRjcBBjeBBjgBNgBAZgDALoGBggBEAEYFJIHCTAuMi4yLjctMaAHlT4&sclient=gws-wiz-serp"
+ },
+ {
+  "id": 116,
+  "placeName": "Suludere Mağarası",
+  "explanation": "Konya İli Beyşehir İlçesine bağlı Çamlık Beldesinin 500 m. Güneybatısında bulunan mağaraya stabilize yolla ulaşılmaktadır. Körükini Mağarasından çıkan Uzunsu Deresi, 100 m. Uzunluktaki Değirmen Vadisi boyunca kayalıklar  arasından   akarak  Değirmenini Mağarasına girmektedir. Buradan su dev kaya blokları arasından şelaleler yaparak ilerlerken, mağara çok geniş ve yüksek bir galeri halinde devam eder ve 150 m. sonunda büyük göle ulaşır",
+  "district": "Beyşehir",
+  "lat": "37.351159",
+  "long": "31.608460",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?q=suluin+ma%C4%9Faras%C4%B1+konya&sca_esv=6de66992da2ba51e&biw=1366&bih=641&sxsrf=ADLYWIJqrEhop9SkMOcpYV4nLMNFZHc9iw%3A1719845467796&ei=W8KCZqeYMI2Uxc8P0v2wOA&gs_ssp=eJzj4tVP1zc0TMszyMqLLzE2YLRSNagwNEk2STE1NbQ0NLJIMk4ztTKoSLIwT0k0MUw1tTCxTDEyN_ISLy7NKc3MU8hNPDI_sSix-MhGhez8vMpEAINrGSM&oq=suluin+ma%C4%9Faras%C4%B1+konya&gs_lp=Egxnd3Mtd2l6LXNlcnAiF3N1bHVpbiBtYcSfYXJhc8SxIGtvbnlhKgIIADILEC4YgAQYxwEYrwEyBBAAGB4yBhAAGAgYHjIIEAAYgAQYogQyCBAAGIAEGKIEMhoQLhiABBjHARivARiXBRjcBBjeBBjgBNgBAUjrF1AAWOULcAB4AZABAJgBjwKgAdEJqgEFMC40LjK4AQHIAQD4AQGYAgegAtEVwgIGEAAYBxgewgIIEAAYBxgIGB7CAg0QLhiABBjHARgNGK8BwgIcEC4YgAQYxwEYDRivARiXBRjcBBjeBBjgBNgBAZgDALoGBggBEAEYFJIHCTAuNC4yLjctMaAHpx0&sclient=gws-wiz-serp"
+ },
+ {
+  "id": 117,
+  "placeName": "Yerköprü Mağarası",
+  "explanation": "Konya İli, Hadim İlçesi sınırının yakınlarında, Göksu Vadisinde bulunmaktadır. Mağaraya Konya- Karaman yoluyla, Kayaağzı-Habiller Köyleri üzerinden 116 km.’lik bir yolculukla ulaşılmaktadır. Ayrıca mağaranın bulunduğu Göksu Vadisine Mersin-Silifke üzerinden de ulaşılabilmektedir. Köy yolları stabilizedir. Mağara tamamen bir traverten tüfün içinde yer almaktadır. Türkiye’nin doğası en güzel mağar­alarından birisidir. Göksu Nehrinin, bu traverten tüfünün altında oluşturduğu mağara 500 m. kadar uzunluktadır. Suyun battığı yerde mağara sifolanmaktadır. Mağaranın çıkış ağzında, Göksu Nehrinin, dışarı­dan akan bir bölümü mağaradan çıkar. Diğer bölümüne bir şelale ile birleşirken bir doğa harikası oluşturmakta ve derin, mavi göller oluş­turarak Göksu Nehri devam etmektedir.",
+  "district": "Hadim",
+  "lat": "37.034146",
+  "long": "32.699307",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?q=yerk%C3%B6pr%C3%BC+ma%C4%9Faras%C4%B1+konya&sca_esv=6de66992da2ba51e&biw=1366&bih=641&sxsrf=ADLYWIK6VUNwjb7lqb_WvAu_Fdj3OtliTA%3A1719845484025&ei=bMKCZvJ6j5DFzw_f556YBQ&oq=yerk%C3%B6pr%C3%BC+ma%C4%9Faras%C4%B1+konya&gs_lp=Egxnd3Mtd2l6LXNlcnAiG3llcmvDtnByw7wgbWHEn2FyYXPEsSBrb255YSoCCAAyBRAAGIAEMggQABiABBiiBDIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBEjQG1AAWO4NcAB4AZABAJgBzwGgAcILqgEFMC43LjG4AQHIAQD4AQGYAgWgAr8HwgIGEAAYBxgewgIHEAAYgAQYDZgDAJIHBTAuNC4xoAfMHA&sclient=gws-wiz-serp"
+ },
+ {
+  "id": 118,
+  "placeName": "Sille Mağaraları",
+  "explanation": "Sille Subaşı Mahallesinde bulunan M.S.11 yy. yapıldığı tahmin edilen mağaralar sille kentsel sit alanı içerisinde yer alana arkeolojik tescilli mağaralardır. Sillenin güney kesimindeki tepelerde yer almaktadır 2 adet mağara kilise ve banaya evleri yer almaktadır. Burada yaklaşık 40 adet mağara bulunmaktadır.",
+  "district": "Selçuklu",
+  "lat": "37.925390",
+  "long": "32.415586",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?q=sille+ma%C4%9Faralar%C4%B1&oq=sille+ma%C4%9Fara&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyDQgBEC4YrwEYxwEYgAQyBggCEEUYOTIHCAMQABiABDINCAQQLhivARjHARiABDIKCAUQABiABBiiBKgCALACAA&sourceid=chrome&ie=UTF-8"
+ },
+ {
+  "id": 119,
+  "placeName": "Gavur Beşiği Mağarası",
+  "explanation": "Hidrolojik önemi bulunmayan bu mağara küçük ve harika bir mağaradır. Mağaranın yüzeyinde burada ibadet yapıldığını düşündüren Bizans döneminden kalma havariler olduğu tahmin edilen insan resimleri bulunmaktadır. Civardaki köylerde Hititlerin yerleşim yeri olduğuna dair kalıntılar da bulunmaktadır.",
+  "district": "Derebucak",
+  "lat": "37.351425",
+  "long": "31.608790",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?gs_ssp=eJzj4tVP1zc0TMs1LjPJKks2YLRSNagwNEk2STFNsjQ1MEsxsDBMsTKoMDa0NE9MTE01TEwzsUw0SfOSTE8sKy1SSEo9Oj_zyPxMhdzEI_MTixKLj2wEANeLG60&q=gavur+be%C5%9Fi%C4%9Fi+ma%C4%9Faras%C4%B1&oq=gavur+&gs_lcrp=EgZjaHJvbWUqDQgDEC4YrwEYxwEYgAQyBggAEEUYOTIHCAEQABiABDIHCAIQLhiABDINCAMQLhivARjHARiABDIHCAQQABiABDIHCAUQABiABDIHCAYQLhiABDIHCAcQABiABDINCAgQLhivARjHARiABDIHCAkQABiPAtIBCDQwMTRqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8"
+ },
+ {
+  "id": 120,
+  "placeName": "Çamlık Mağaraları",
+  "explanation": "Derebucak Çamlık Mağaraları Millî Parkı, Türkiye'nin Konya ilinin Derebucak ilçesinde yer alan bir millî parktır. Batı Torosların güneydoğusunda Akdağlar üzerinde yer alır; Çamlık Kasabası’na yaklaşık 1,5 km uzaklıktadır. 1.147 hektar (11,47 km2) alan kaplamaktadır. 7 Haziran 2022 tarihinde millî park olarak belirlenmiş ve Türkiye'nin 47. millî parkı olmuştur.",
+  "district": "Derebucak",
+  "lat": "37.348822",
+  "long": "31.615412",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?gs_ssp=eJzj4tVP1zc0TDY1M82rLI83YLRSNagwNEk2STFJNjM3NjVNTjUztDKoMDEyNzU3NzFOS0ozTjYwsPQSPbw8MTfnyMZshdzEI_MTixJzEouObAQAV5YZaQ&q=%C3%A7aml%C4%B1k+ma%C4%9Faralar%C4%B1&oq=%C3%A7aml%C4%B1+ma%C4%9Faralar%C4%B1&gs_lcrp=EgZjaHJvbWUqDwgBEC4YDRivARjHARiABDIGCAAQRRg5Mg8IARAuGA0YrwEYxwEYgAQyCggCEAAYBRgNGB4yCggDEAAYgAQYogQyBggEEEUYPDIGCAUQRRg9MgYIBhBFGDzSAQg0MzA2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8"
+ },
+ {
+  "id": 122,
+  "placeName": "Tersakan Gölü",
+  "explanation": "Cihanbeyli ilçesi sınırlarında bulunan Tersakan Gölü, Tuz Gölü'nün güneybatısında yer alan 6.400 ha yüzölçümünde suları sodalı ve tektonik bir göldür. Yeraltı suları ve yüzey akımlarıyla beslenen Tersakan Gölü yağışın az olduğu zamanlarda küçülmekte, bazı yıllarda bütünüyle kurumakta ve yağışlı dönemlerde ise yeniden canlanmaktadır. Çok önemli bir doğal alan halindeki Tuz Gölü sulak alan sisteminin bir parçası olan Tersakan Gölü’nün fazla suları Tuz Gölü'ne karışmaktadır. 630.000 tonluk sülfat rezervine sahip olduğu düşünülen göl içerisindeki tuzlalarda özel bir şirket tarafından sodyum sülfat üretimi yapılmaktadır. Gölün doğu ve batısında yer alan tarım arazilerinde kuru tarım ve kimyon ekimi yapılmakta, ekim yapılmayan bozkır ve çayırlarda ise hayvan otlatılmaktadır. 1992 yılında 1. derece doğal sit alanı ilan edilen Tersakan Gölü’nün sit alanı 2020 yılında Doğal Sit-Nitelikli Doğal Koruma Alanı olarak tescil edilmiştir. Tuz Gölü’yle hidrolojik ve ornitolojik açıdan ilişkili olan Tersakan Gölü, bu alanda üremekte olan bazı kuş çeşitleri adına önemli bir beslenme sahası oluşturmaktadır. Bitki ve kuş türleri bakımından bir hayli önem taşıyan gölde nesli tükenmekte olan dokuz bitki türü bulunmaktadır. Bir kuşkonmaz çeşidi olan Asparagus lycaonicus dünyada sadece bu sahada yaşamaktadır. Flamingo ve ince gagalı martı için Tuz Gölü Havzası temel bir beslenme sahasıdır. Kılıçgaga, Büyük Cılıbıt ve Turnanın önemli sayılarda ürediği gölalanı kış aylarında Sakarcalar için de çok önemli bir geceleme yeridir. Tersakan Gölü üzerindeki en ciddi tehdit tarımsal amaçlı aşırı su çekiminin yapılmasıdır. Bu durum son yıllarda gölün su rejimini olumsuz etkilemekte ve zaman zaman bütünüyle kurumasına sebep olmaktadır. Gölün kurumasıyla birlikte tuzlu suda barınan Flamingolar, çeşitli su kuşları ve en önemlisi gölde kuluçkaya yatan tek tür olan Kılıçgagalar, bölgeyi terk etmektedir. Endemik ve tehlike altındaki türleri barındıran bu sahada gerçekleştirilen tarımsal faaliyetler ve aşırı otlatma bitki örtüsünü olumsuz bir şekilde etkilemektedir. Alanda yasadışı avcılığın da görüldüğü bölgede alınacak tedbirler sonrasında göl havzasının eskisi gibi kuş sesleriyle dolması beklenmektedir. Tersakan Gölü’ne ziyarete gelirken beraberinizde fotoğraf makinenizi getirmeyi unutmayın. Burası bazı vakitlerde ülkenin dört bir tarafından gelen kuş gözlemcisi ve fotoğraf severlerle dolup taşmaktadır. Fotoğraf meraklısı değilseniz bile göl kenarlarına yapılmış gözetleme kulelerinde gün batımını keyifle izleyebilirsiniz.",
+  "district": "Cihanbeyli",
+  "lat": "38.582250",
+  "long": "33.087658",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?sca_esv=4feba20402ec5926&sxsrf=ADLYWILTXRDGBBFW9ZdjhgHg4-yRZDco9g:1722245080642&q=tersakan+g%C3%B6l%C3%BC&source=lnms&fbs=AEQNm0CgMcZ11KbHg1uunEmuo39LYaLxf_n_v5Qu9vkTINnKPNxSSRV--bGiJa6CXOAP_uiHPbLwpiGDt9Ut9ZZcy-dTvNRm9hdQ87lyvv_R5AjBb-uKqItElYfMoqsbI2Oa9aAJqvt3nl00Dyc7F5xyKrEHNoXTRE6J9kIxvkiTFxhTL4ZHf8AtKZa7YygyMfAZu_O3ts7m&sa=X&ved=2ahUKEwj7uv3x9suHAxUVS_EDHUK1DzsQ0pQJegQIDhAB&biw=1517&bih=712&dpr=0.9"
+ },
+ {
+  "id": 123,
+  "placeName": "Peynirini Mağarası",
+  "explanation": "Derbent Mülayim Mahallesi’nin yaklaşık 5 kilometre güneydoğusunda Aladağ’ın eteğinde Belbaşı Mevkii’nde kayalıklar arasında yer alan Peynirini Mağarası; hikâyesi ve özellikleri ile son derece ilgi çekicidir. Mağara tulum peyniri oluşumuna uygun bir yapıya sahip olduğundan yöre halkı açısından büyük önem taşır. Yıllardır yöre halkı tarafından doğal soğuk hava deposu mahiyetinde tulum peyniri saklamak amacıyla kullanıldığı için bu mağara Peynirini Mağarası olarak adlandırılır. İlçe merkezine yaklaşık 8 kilometre mesafede bulunan mağaranın, tavanından akan su damlaları nedeniyle içerisinde son derece güzel sarkıt ve dikitler oluşmuştur. Maden Tetkik Arama Enstitüsü tarafından yapılan araştırmalar sonunda Peynirini Mağarası, 2019 yılında Konya Tabiat Varlıklarını Koruma Bölge Komisyonu’nca 2. Derece Doğal Sit Alanı ve Tabiat Varlığı olarak tescil edilmiştir. İşletmesi Derbent Belediyesi’ne ait olan mağara, belediye görevlisinin nezaretinde yöre insanının kışlık peynirlerini muhafaza etmek amacıyla peynir deposu olarak kullanılmaya devam etmektedir. Peynir yapma mevsiminde, vatandaşlar tuluk peynirleri kurduktan sonra mağaradaki görevliye teslim etmekte ve burada yaklaşık 3-4 ay bekletildikten sonra ekim ayı sonunda geri almaktadır. Mağara içerisine konulan peynirler, uygun serinlikte ve koşulda saklanmakta ve üzerine su damladığı için küflü peynir haline gelmektedir. 100 ton kapasitedeki mağaraya, her yıl yaklaşık 50 ton peynir bırakılır ve mağara içindeki hava tuluklardaki peyniri çok yumuşak kıvamda tuttuğu için ona ayrı bir lezzet katmaktadır. Şöhreti ülke çapında duyulan mağara sadece ilçenin değil, çevre il ve ilçelerinden getirilen tulum peynirlerinin de saklama alanı olarak kullanılır.",
+  "district": "Derbent",
+  "lat": "37.986608",
+  "long": "32.085511",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?q=peynirini+ma%C4%9Faras%C4%B1+derbent+konya&sca_esv=4feba20402ec5926&biw=1517&bih=712&sxsrf=ADLYWII-2YrigWa_o-em7OjrUjE36e7VMw%3A1722245311960&ei=v2CnZoCdOq2Jxc8PrcDr-Aw&oq=peynirini+ma%C4%9Faras%C4%B1+derbent&gs_lp=Egxnd3Mtd2l6LXNlcnAiHHBleW5pcmluaSBtYcSfYXJhc8SxIGRlcmJlbnQqAggAMgUQIRigAUjQG1B0WKURcAF4AZABAJgBggKgAboOqgEDMi04uAEDyAEA-AEBmAIJoALuDsICChAAGLADGNYEGEfCAgIQJsICBhAuGBYYHsICBhAAGBYYHsICCBAAGIAEGKIEwgIIEAAYogQYiQXCAgQQIRgVwgIHECEYoAEYCpgDAIgGAZAGApIHBTEuMC44oAeaHg&sclient=gws-wiz-serp"
+ },
+ {
+  "id": 124,
+  "placeName": "Güvercinlik Mağarası",
+  "explanation": "Konyadaki eşsiz mağaralardan biri de Güvercinlik Mağarası’dır. Susuz Yaylası yolu üzerindeki mağara ahali arasında Keş Deliği veya Güvercin Taşı Deliği adlarıyla da anılır. Mağaraya bahar aylarında gitmeyi tercih ederseniz, yolculuk sırasında, Toros Dağları’nın temiz havası eşliğinde nefis endemik çiçeklerini yakından görmeniz mümkün olacaktır. Bilim insanları tarafından 1972’de yapılan araştırmada mağaranın derinliği 80, uzunluğu yaklaşık bin 650 metre olarak tespit edilmiş; 1982’de MTA tarafından haritası çizilmiştir. Vadinin tabanında yer alan mağaranın ana girişi halk arasında Keş Deliği adıyla anılır. Susuz Mağarası, adıyla tezat bir şekilde oldukça sulu bir mağaradır. Halk arasındaki anlatılara bakılırsa, yapılan boya testlerinde burasının Tınaztepe Mağarası ile irtibatı tespit edilmiştir. Susuz Mağarası’nın büyük boyutlarda olması, mağara içinde oldukça güzel travertenler, sarkıt ve dikitler bulunması, su ve göllerin yer alması mağarayı ziyaretçiler açısından etkileyici ve çekici yapmaktadır. Yapılacak düzenlemelerle turizme kazandırılabilecek olan mağara ve doğaseverler açısından oldukça niteliklidir.",
+  "district": "Güneysınır",
+  "lat": "37.258415",
+  "long": "32.772884",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?q=g%C3%BCvercinlik+ma%C4%9Faras%C4%B1+konya&sca_esv=4feba20402ec5926&biw=1517&bih=712&sxsrf=ADLYWILNYM1oxTyou938c8Qb17dOGYYaBA%3A1722247170630&ei=AminZvqQJu2Fxc8P85n0uA8&oq=g%C3%BCvercinlik+ma%C4%9Faras%C4%B1&gs_lp=Egxnd3Mtd2l6LXNlcnAiF2fDvHZlcmNpbmxpayBtYcSfYXJhc8SxKgIIADIKEAAYgAQYQxiKBTIFEAAYgAQyBRAAGIAEMgYQABgWGB4yBhAAGBYYHjIIEAAYgAQYogQyCBAAGIAEGKIESMIrUABYzx1wAHgAkAEBmAHFC6ABzUCqAQswLjEuNS41LjctNLgBAcgBAPgBAZgCDqAC3z7CAgoQIxiABBgnGIoFwgIQEC4YgAQYxwEYJxiKBRivAcICBBAjGCfCAhEQLhiABBixAxjRAxiDARjHAcICCxAuGIAEGLEDGIMBwgILEAAYgAQYsQMYgwHCAggQABiABBixA8ICEBAuGIAEGEMYxwEYigUYrwHCAhAQABiABBixAxhDGIMBGIoFwgIIEC4YgAQYsQPCAgoQLhiABBhDGIoFwgIFEC4YgASYAwCSBw8wLjEuNS4zLjEuMC4xLjOgB-HGAQ&sclient=gws-wiz-serp"
+ },
+ {
+  "id": 125,
+  "placeName": "Gürleyen (Say) Kanyonu",
+  "explanation": "Hadim ilçesi sınırlarında bulunan ve Türkiye’nin en sıradışı kanyonlarından arasında gösterilen Gürleyen Kanyon, 1999 yılında Konya Dağcılık Doğa Sporları Arama Kurtarma Kulübü (KONDAK) tarafından keşfedilmiştir. Kanyon yürüyüşçülerinin aradığı büyüleyici güzellikleri içinde barındıran Gürleyen Kanyon’da her yıl dağcılık ve doğa sporları kulüpleri tarafından etkinlik düzenlenmektedir. Düz bir ova olarak bilinen Konya’da böylesine ihtişamlı bir kanyonun bulunması il dışından ve yurt dışından gelen ziyaretçilerde büyük ilgi uyandırmaktadır. Hadim Aşağı Mernek Mahallesi’nden başlayan Yerköprü şelalesi yakınlarında tamamlanan orta derecede zorluk içeren 12 km uzunluğundaki kanyon bölgenin bakir kalabilmiş, doğallığı bozulmamış nadir alanlarından biridir. Doğa yürüyüşü ve etkinlikler için alternatif yer arayanların mutlaka Gürleyen Kanyonu görmeleri tavsiye edilir. Fotoğraf ve doğaseverler özellikle sonbaharda kiraz, ceviz, elma ve kavak ağaçlarının ortaya çıkardığı görsel şöleni görmenin yanı sıra köylülerin yetiştirdiği tamamen organik ürünleri yerinde tedarik etme ve tatma imkânı yakalamış olurlar.",
+  "district": "Hadim",
+  "lat": "36.969343",
+  "long": "32.522474",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?sca_esv=4feba20402ec5926&sxsrf=ADLYWIK6MABFMV2V8ArfDUHJdTO6D-R_OA:1722247514159&q=g%C3%BCrleyen+kanyon&source=lnms&fbs=AEQNm0CgMcZ11KbHg1uunEmuo39LYaLxf_n_v5Qu9vkTINnKPNxSSRV--bGiJa6CXOAP_uiHPbLwpiGDt9Ut9ZZcy-dTvNRm9hdQ87lyvv_R5AjBb-uKqItElYfMoqsbI2Oa9aAJqvt3nl00Dyc7F5xyKrEHNoXTRE6J9kIxvkiTFxhTL4ZHf8AtKZa7YygyMfAZu_O3ts7m&sa=X&ved=2ahUKEwjav6_6_8uHAxW8SfEDHSWjGw0Q0pQJegQICxAB&biw=1517&bih=712&dpr=0.9"
+ },
+ {
+  "id": 126,
+  "placeName": "Kestel Göleti",
+  "explanation": "Kestel Göleti, Konya’ya 60 km mesafede ve Lâdik Mahallesi yakınlarında bulunmaktadır. Olta avcılığı yapan balıkçıların gözde mekânlarının başında gelen Kestel Göleti özellikle doğa ve yaban hayatı açısından bölgede öne çıkan bir alan halindedir. Ormanlık alanda yer alan bu tabiat parkında karaçamın yanında ardıç, sistus ve ahlat ağaçları da bulunmaktadır. Göletin çevresinde büyük çam ağaçlarının gölgelediği mesire alanları, son zamanlarda özellikle kampçıların çadır kurdukları ve ahalinin rağbet ettiği yerler arasında bulunmaktadır. Eko turizm potansiyeline sahip şehrin gürültüsünden uzak huzur verici bu güzel mekân sıklıkla Konyalı ziyaretçilere hizmet vermektedir. Hafta sonunda aileleriyle birlikte vakit geçirmek isteyenler, hem gönüllerince piknik yapmak hem de temiz hava ve bol oksijen içerisinde yürümek için Kestel’e gelmektedir. Kadınhanı’na geldiğinizde birkaç saatliğine dahi olsa, Kestel’e kadar gelerek bu güzelim tarihi ve doğal güzellikleri mutlaka yerinde görmelisiniz.",
+  "district": "Kadınhanı",
+  "lat": "38.139583",
+  "long": "32.262474",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?q=kestel+g%C3%B6leti&sca_esv=4feba20402ec5926&biw=1517&bih=712&sxsrf=ADLYWII_5__-f-VchDDIRmQGlOu1WXKp6w%3A1722247554985&ei=gmmnZsDpO6KHxc8PyqXoyAU&gs_ssp=eJzj4tVP1zc0TDM0Tc81MisyYLRSNagwNEkxME1JNTS3MDdJTk02tjKoSEs0tkw2SjNINkk1MEpMSfLiy04tLknNUUg_vC0ntSQTALOLFaQ&oq=KESTEL+G%C3%96LET%C4%B0&gs_lp=Egxnd3Mtd2l6LXNlcnAiD0tFU1RFTCBHw5ZMRVTEsCoCCAAyCxAuGIAEGMcBGK8BMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQLhiABDIFEAAYgAQyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAuGBYYHjIaEC4YgAQYxwEYrwEYlwUY3AQY3gQY4ATYAQFI4CVQAFibGXAAeACQAQCYAaUCoAGQF6oBBDItMTO4AQHIAQD4AQGYAg6gAtkkwgIKECMYgAQYJxiKBcICChAuGIAEGCcYigXCAhAQLhiABBhDGMcBGIoFGK8BwgIKEC4YgAQYQxiKBcICChAAGIAEGEMYigXCAgsQLhiABBixAxiDAcICFBAuGIAEGLEDGNEDGIMBGMcBGIoFwgIQEC4YgAQYxwEYJxiKBRivAcICDhAuGIAEGLEDGIMBGIoFwgIIEC4YgAQYsQPCAhMQLhiABBjHARgnGIoFGI4FGK8BwgIEECMYJ8ICIBAuGIAEGMcBGIoFGI4FGK8BGJcFGNwEGN4EGOAE2AEBwgIdEC4YgAQYxwEYigUYrwEYlwUY3AQY3gQY4ATYAQHCAhoQLhiABBixAxiDARiXBRjcBBjeBBjgBNgBAZgDALoGBggBEAEYFJIHCjItMTIuMS43LTGgB5C7AQ&sclient=gws-wiz-serp"
+ },
+ {
+  "id": 127,
+  "placeName": "Saçıkara Mağaraları",
+  "explanation": "Kadınhanı’nda mutlaka görülmeye değer bir güzellik olan Saçıkara Mağaraları, aynı adlı yerleşimin doğu tarafında tepelik bir sahada bulunmaktadır. Tepenin güney tarafında yer alan bütünüyle kayaya oyulmuş bu tarihi mağaraların ne zaman yapıldığına dair net bilgiler bulunmamaktadır Ortaçağlarda bölgede bu türden kaya oyma mekânların bulunduğu bilinmektedir. Halk arasında bu konuda çok sayıda rivayet bulunsa da benzer örneklerle karşılaştırılmasından hareketle Saçıkara Mağaraları Roma dönemine tarihlendirmek mümkündür. Mimari açıdan incelendiğinde Saçıkara Mağaraları’na dikdörtgen biçimde oyulan yaklaşık 10 m uzunluğunda bir dehlizden girildiği anlaşılmaktadır. Dışarıya açık küçük mekânların bulunduğu yaşam alanına bu dehlizden geçilerek ulaşılmaktadır. Mekânların bazılarında mezar nişleri yer almakta olup boyutlarından hareketle bu nişlerin çocuk mezarı olduğu düşünülmektedir. Ana mekânlar insanın rahat bir şekilde sığabileceği boyutta olup, burada kayalara oyularak yapılmış küçük odalar yer almaktadır. Birbirine geçmiş onlarca odanın bulunduğu mağaranın güneyinde ve batısında aydınlanmayı ve çevreyi kontrol etmeyi sağlayan açıklıklar bulunmaktadır. Mağara içerisinde yapılacak bir incelemede insanların bu yerleşimleri barınmak, saklanmak ve korunmak amacıyla yaptıkları rahatlıkla anlaşılabilmektedir. Ne yazık ki günümüz insanları bölgenin turizmine ciddi katkılar sağlayacak bu güzelim kültür mirasının ne kadar kıymetli olduğunu henüz yeterince idrak edebilmiş değildir. Belki de bu nedenle binlerce yıllık bu mağaraların her odasında yapılan kaçak kazılarla define aranmış ve duvarlarına yazılar kazınmış durumdadır.",
+  "district": "Kadınhanı",
+  "lat": "38.589158",
+  "long": "32.136804",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?sca_esv=4feba20402ec5926&sxsrf=ADLYWIIadyo4KGn6jyZ5ZLvU6yVPCMh9Zg:1722248110833&q=sa%C3%A7%C4%B1kara+ma%C4%9Faralar%C4%B1+konya+kad%C4%B1nhan%C4%B1&source=lnms&fbs=AEQNm0CgMcZ11KbHg1uunEmuo39LYaLxf_n_v5Qu9vkTINnKPFxIgupDJiyYgOOMj7PxlorLHmd2DHeNseH1IrAilxCXhhqaxAKOm1x28b4XF7ZKeUXxY7vd_k8moTO8bljh2ze2_CXj-ql7jFMbnzc5gsyF1u3ZVITowsxddd3kGcFRjhB4QnRL9vg4ueDAb77HQX0W8D5k&sa=X&ved=2ahUKEwiYzvGWgsyHAxXTRfEDHY_MDTQQ0pQJegQIExAB&biw=1517&bih=712&dpr=0.9"
+ },
+ {
+  "id": 128,
+  "placeName": "Düden Gölü",
+  "explanation": "Tuz Gölü'nün 15 km. kuzeybatısında, şehir merkezinin 5km. doğusunda yer alan Düden Gölü, denizden 950 m. yüksekliğinde ve 800 ha büyüklüğünde tektonik bir göldür. Değirmenözü Deresi başta olmak üzere küçük pınarlarla beslenen göl, gayet sığ durumdadır. Suları hafif tuzlu olan gölün hemen güneyinde geniş alüvyonlu bir girinti ile ayrıldığı Küçük Göl bulunmaktadır. Kıyısındaki bitki örtüsü, derelerin göle karıştığı noktalar haricinde oldukça zayıf olup, sazlıklarla çevrili  güney kesiminde tatlı su hâkim bulunmaktadır. Doğal Sit Alanı 2020 yılı başlarında “Doğal Sit-Nitelikli Doğal Koruma Alanı” olarak tescil edilmiş olan gölün koruma alanı, güneyindeki tatlı su gölü ile çevresindeki sulak alanları ve bozkırları içine alacak şekilde oluşturulmuştur. Bir kısmı tatlı su özelliğini taşıyan Düden Gölü’nün sularının hafif tuzlu olması, nedeniyle hem tuzlu, hem de tatlı su kuşlarını göl alanında görmek mümkündür. Afrika’ya göç eden kuşların göç yolları üzerinde bulunduğundan kuşlar, dinlenmek için Düden Gölü'nde konaklar ve buradan Afrika'ya giderler. Su kuşları için adeta bir üreme yeri olan göl içerisinde göçmen kuşlarının ürediği dokuz kadar küçük ada bulunmaktadır. Bu alanda Akdeniz Martısı, Bataklık Kırlangıcı, Dikkuyruk, Gülen Sumru, İnce Gagalı Martı, Karabaş Martı, Kaşıkçı, Kılıçgaga, Kum Kırlangıcı, Küçük Batağan, Leylek, Macar Ördeği, Poyraz Kuşu, Sakarmeke, Uzunbacak, Van Gölü Martısı gibi türler kuluçkaya yatmaktadır. Akça Cılıbıt, Angıt, Bağırtlak, Batağan, Boyunçeviren, Çamurcun, Çıkrıncın, Dikkuyruk, Döğüşken Kuş, Flamingo, Halkalı Küçük Cılıbıt, Karaboyunlu, Kaşıkgaga, Kılıçgaga, Kızkuşu, Küçük Kum Kuşu, Macar Ördeği, Mahmuzlu Kızkuşu, Sakarca, Turna, Uzunbacak, Yeşilbaş gibi türler de göl çevresinde kışlamakta ve konaklamaktadır. Alanda aynı zamanda nadir görülen türler olan Kara İskete, Kara Kanatlı Bataklık Kırlangıcı, Küçük Su Çulluğu, Sarı Başlı Kuyruksallayan, Sarı Gagalı Keten Kuşu ve Tarla Kazı da gözlenmiştir. Ördekler güneydeki tatlı su bölümünde kuluçkaya yatarlarken, Martılar ve Sumrular kalabalık koloniler halinde adaları seçmektedir. Bütün dünyada koruma altına alında bulunan dikkuyrukların üreme alanı arasında bulunan Düden Gölü Avrupa’da yok olmaya başlayan Flamingoların da yaşadığı önemli bir sahadır. Ankara’daki kuş gözlemcileri için nitelikli bir gözlem noktası olan gölde son zamanlarda yapılan sayımlar sonucunda, burada en azından 172 kuş türünün bulunduğu tespit edilmiştir. Kurak zamanlarda kuruma tehlikesiyle karşı karşıya kalan göl, yağışlı yıllarda eski haline gelmektedir. Buğday tarlaları ve bozkırlarla çevrili olan gölde bulunan küçük adalar ilkbahar aylarında otlarla kaplanmaktadır. Ekolojik önemi yüksek bir göl olan Düden Gölü, nesli tehlike altında bulunan türlerin ürediği bir alan olması nedeniyle daha da büyük önem kazanmıştır. Bütün bu nedenlerle kültür ve turizme yönelik etkinliklerin göldeki doğal yaşamı dikkate alarak planlanması gerekmektedir. Her yıl pek çok yabancı kuş gözlemcisinin ziyaret ettiği göl çevresinde, gözlemciler ve fotoğrafçılar için büyük bir gözlem kulesi de bulunmaktadır. Fotoğrafçılar göl çevresinde saatlerce pusuya yatarak özellikle flamingoların muhteşem fotoğraflarını çekerler.",
+  "district": "Kulu",
+  "lat": "39.086206",
+  "long": "33.146054",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?q=d%C3%BCden+g%C3%B6l%C3%BC+kulu&sca_esv=4feba20402ec5926&biw=1517&bih=712&sxsrf=ADLYWILNFdaClaT02bFz2OkyICc-EMhT_g%3A1722248355938&ei=o2ynZvjyOKSVxc8P4MXXiQI&oq=D%C3%BCden+G%C3%B6l%C3%BC+konya+ku%C4%B1u&gs_lp=Egxnd3Mtd2l6LXNlcnAiGUTDvGRlbiBHw7Zsw7wga29ueWEga3XEsXUqAggBMggQABiABBiiBDIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBEiVOVD0AVi9E3ABeAGQAQCYAZIDoAHfGaoBBzItNi40LjG4AQPIAQD4AQGYAgygAsIawgIKEAAYsAMY1gQYR8ICDhAAGLADGOQCGNYE2AEBwgITEC4YgAQYsAMYQxjIAxiKBdgBAsICGRAuGIAEGLADGEMYxwEYyAMYigUYrwHYAQLCAgUQABiABMICCxAuGIAEGMcBGK8BwgIFEC4YgATCAgYQABgWGB7CAhQQLhiABBiXBRjcBBjeBBjgBNgBA8ICBhAuGBYYHsICFRAuGBYYHhiXBRjcBBjeBBjgBNgBA8ICCBAuGAgYDRgewgIXEC4YCBgNGB4YlwUY3AQY3gQY4ATYAQOYAwCIBgGQBg-6BgYIARABGAm6BgYIAhABGAi6BgYIAxABGBSSBwkxLjAuNS41LjGgB64-&sclient=gws-wiz-serp"
+ },
+ {
+  "id": 129,
+  "placeName": "Kırmızı Mağaralar",
+  "explanation": "Kırmızı Mağara, Karacadağ’ın uzantısı olan küçük dağların eteklerinde doğuya sırtını yaslamış şirin ve tipik bir Anadolu yerleşimi olan Altılar’da bulunmaktadır. Kulu’ya 18 km mesafede bulunan yerleşimin doğusunda Çöpler, batısında Seyit Ahmetli güneyinde Yaraşlı ve Ağılbaşı, kuzeyinde ise Tavlıören yerleşimleri bulunmaktadır. Bölgedeki en güzel yerleşimlerden biri olan Altılar’ın sırtı dağlarla, önü dümdüz ve verimli topraklarla çevrilidir. Altılar’ın oldukça eski bir yerleşim olduğu burada bulunan eski mezarlık ve kalıntılardan anlaşılmaktadır. Tarihi ve turistik zenginlik bakımdan görülmeye değer pek çok yapının bulunduğu yerleşimde en dikkat çekici yapı Kırmızı Mağara’dır. Altılar yerleşiminin batısına düşen ovaya hâkim bir noktada bir doğal oluşum olan Kırmızı Mağara’nın halk arasında ilginç bir hikâyesi anlatılmaktadır. Hikâyeye göre mağara şöhretini Zöre adındaki bir göçmen kıza borçludur. Çok eski zamanlarda Altılar’da yaşayan göçmen kızı Zöre, köyün gençlerinden birine sevdalanmış ve gizli gizli onunla görüşmeye başlamış. İki sevgili zaman zaman yerleşimdeki mağarada buluşur, görüşürlermiş. Ancak zamanla, kendilerini gören bir vatandaş nedeniyle adları halk arasında türlü dedikodulara karışmış. Bunun üzerine Zöre sevgilisinin gözü önünde ailesi tarafından mağaradan aşağı atılarak cezalandırılmış. İnanışa göre kızın ölümünden sonra mağaranın bütün duvarlara kırmızıya dönmüştür. Mağaranın renginin kırmızı olmasının Zöre’nin kanından, nemli olmasının da sevgilisinin gözyaşından kaynaklandığına inanılmaktadır. Halk arasında Kırmızı Mağara’nın Karacadağ’daki büyük mağarayla da bağlantılı olduğu rivayet edilmektedir. Mağaranın giriş yolu üzerinde sağlı sollu tüneller bulunmaktadır. Girişi bütünüyle kırmızı renkli parçalı kayalardan oluşan ve günümüzde duvarlarında çeşitli resim ve figürlerin bulunduğu mağara, turizme kazandırılması gereken çok önemli bir doğal mirasımız halindedir. Tarlaların arasından kıvrılıp giden stabilize bir yol vasıtasıyla ulaşılan ve dağın eteğinde yüksekçe bir noktada bulunan mağara girişinde kuşburnu ağaçları boy göstermektedir.",
+  "district": "Kulu",
+  "lat": "39.195926",
+  "long": "32.967617",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?sca_esv=4feba20402ec5926&sxsrf=ADLYWILNjxo1QEV2rWcfVgPFN9kZxU_PFQ:1722248968218&q=k%C4%B1rm%C4%B1z%C4%B1+ma%C4%9Faralar+kulu&source=lnms&fbs=AEQNm0CgMcZ11KbHg1uunEmuo39LYaLxf_n_v5Qu9vkTINnKPNxSSRV--bGiJa6CXOAP_uiHPbLwpiGDt9Ut9ZZcy-dTvNRm9hdQ87lyvv_R5AjBb-uKqItElYfMoqsbI2Oa9aAJqvt3nl00Dyc7F5xyKrEHNoXTRE6J9kIxvkiTFxhTL4ZHf8AtKZa7YygyMfAZu_O3ts7m&sa=X&ved=2ahUKEwjCnNyvhcyHAxXvR_EDHQPPKMAQ0pQJegQIExAB&biw=1517&bih=712&dpr=0.9"
+ },
+ {
+  "id": 130,
+  "placeName": "Zengi Mağaraları",
+  "explanation": "Sarayönü İlçesi’nin turizm potansiyeli bulunan değerleri arasında tarihi mağaralar da önemli bir yer tutmaktadır. Bunların içinde yer alan Büyükzengi Mağarası da bölgede görülmeye değer yerler arasında bulunmaktadır. Bu güzel mağara, Büyükzengi Mahallesi’nde yerleşimin doğu tarafında bulunan tepenin yamacında yer almaktadır. Halk arasındaki rivayetlerde mağaranın Roma öncesinde yaşayan insanlar tarafından kayalara oyularak yapıldığı söylenmektedir. Büyükzengi ve civarında kayalara oyulmuş tarihi yerleşimlerin Roma ve Bizans döneminde kullanıldıkları anlaşılmaktadır. Bölgede yapılan inceleme ve araştırmalarda arazide kolayca işlenebilen kayaçların bulunması sebebiyle mağaraların insanlar tarafından oyularak yapıldığı anlaşılmaktadır. Kayalar üzerinde yer alan odacıkların yapısına bakıldığında bunların doğal bir oluşum olmadığı da açıkça görülebilmektedir. Bölge ahalisi tarafından odaların içlerinde bulunan nişlerin mezar olarak kullanıldığı düşünülmektedir. Büyükzengi’de bulunan mağaraları ziyaret ederseniz, duvarlarında çok sayıda kabartma ve işlemenin bulunduğunu görebilirsiniz. Ancak ne yazık ki pek çok tarihi eser de olduğu gibi, Büyükzengi Mağaraları da defineciler tarafından talan edilmiş durumda bulunmaktadır. Ne yazık ki, halk arasında anlatılan çok sayıdaki define hikâyesi, gerçek hazinelerimiz olan tarihi eserlerimizin beyhude bir şekilde talan edilmelerine neden olmaktadır.",
+  "district": "Sarayönü",
+  "lat": "38.755233",
+  "long": "32.320351",
+  "closing": "24 Saat Açık",
+  "web": "https:\/\/www.google.com\/search?q=zengi+ma%C4%9Faralar%C4%B1+saray%C3%B6n%C3%BC&sca_esv=4feba20402ec5926&biw=1517&bih=712&sxsrf=ADLYWILM7V1U8U5DmoGwQbGSmndHuQm7_w%3A1722249314966&ei=YnCnZvLGOpaMxc8Pu72GuQc&ved=0ahUKEwjy_4fVhsyHAxUWRvEDHbueIXcQ4dUDCBA&uact=5&oq=zengi+ma%C4%9Faralar%C4%B1+saray%C3%B6n%C3%BC&gs_lp=Egxnd3Mtd2l6LXNlcnAiHXplbmdpIG1hxJ9hcmFsYXLEsSBzYXJhecO2bsO8MgcQIRigARgKSOAsUABYuytwAHgAkAEAmAHoAaAB6COqAQYwLjE3Lje4AQPIAQD4AQGYAhegAvgjwgIEECMYJ8ICChAjGIAEGCcYigXCAhAQLhiABBjHARgnGIoFGK8BwgIREC4YgAQYsQMY0QMYgwEYxwHCAgQQLhgDwgIOEC4YgAQYsQMYgwEYigXCAgsQLhiABBixAxiDAcICCxAAGIAEGLEDGIMBwgIKEAAYgAQYQxiKBcICDhAAGIAEGLEDGIMBGIoFwgIKEC4YgAQYQxiKBcICFhAuGIAEGLEDGNEDGEMYgwEYxwEYigXCAggQLhiABBixA8ICDRAAGIAEGLEDGEMYigXCAgUQABiABMICCxAuGIAEGMcBGK8BwgIlEC4YgAQYsQMY0QMYQxiDARjHARiKBRiXBRjcBBjeBBjgBNgBAcICBRAuGIAEwgIIEAAYgAQYsQPCAgoQLhiABBixAxgKwgIHEAAYgAQYCsICDRAuGIAEGMcBGAoYrwHCAgYQABgDGArCAgcQABiABBgTwgIIEAAYExgWGB7CAgUQIRigAZgDALoGBggBEAEYFJIHBzAuMTAuMTOgB8G-AQ&sclient=gws-wiz-serp"
+ }
+]

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_screen"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            tools:context=".viewMyCity.CultureFragment">
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/stad"
+                app:civ_border_color="@color/app_color"
+                app:civ_border_width="3dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></de.hdodenhof.circleimageview.CircleImageView>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageView3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="105dp"
+                android:src="@drawable/basket"
+                app:civ_border_color="@color/app_color"
+                app:civ_border_width="3dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></de.hdodenhof.circleimageview.CircleImageView>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageView2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="105dp"
+                android:layout_marginEnd="40dp"
+                android:src="@drawable/veledron"
+                app:civ_border_color="@color/app_color"
+                app:civ_border_width="3dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></de.hdodenhof.circleimageview.CircleImageView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintTop_toBottomOf="@+id/circleImageView2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Tarihi güzellikleri ve yemyeşil doğasıyla göz dolduran Konya sağlıklı ve kaliteli zaman geçirmek isteyenler için harika seçenekler sunuyor. Çeşitli spor dallarına meraklı kişilerin ziyaret edebilecekleri enfes doğal alanlar, milli parklar ve modern spor tesisler Konya’yı spor alanında da başşehir olmaya aday göstermektedir. Şehrin sunduğu birbirinden eğlenceli spor aktiviteleri arasında seçim yaparken bir hayli zorlanacağınızı garanti ediyoruz. Beyşehir Gölü Milli Parkı spor ve rekreasyon faaliyetleri bakımından şehrin başlıca cazibe merkezlerinden biridir. Beyşehir Gölü’nün dingin kıyıları, karstik alanları, ormanlarla kaplı yemyeşil doğası; spor yapmak için muhteşem bir ortam sağlıyor. Trekking (doğa yürüyüşü), hiking (kırda gezinti), biking (dağ bisikletiyle gezi), kuş gözlemciliği, oryantiring gibi birçok spor aktivitesinin yapıldığı parkta adrenalinin dozunu artırmak isteyenler için ayrıca jeep safari güzergahları da bulunuyor. Hangi spor dalını seçerseniz seçin zindelik kazanan bedeninizi gölün muhteşem gün batımı manzarasında dinlendirmeyi ihmal etmeyin. Milli parkı günübirlik ziyaret edebileceğiniz gibi, gün sonunda buradaki karavan, çadır ve bungalov evlerin bulunduğu kamp alanlarında kalarak tatilinizi birkaç gün daha uzatabilirsiniz. Anadolu’nun ortasında masmavi bir nazar boncuğu gibi parlayan Beyşehir Gölü’nün tertemiz sularında yüzmek için rotanızı şehrin en gözde plajlarından olan, Üstünler Kasabası’ndaki Karaburun Plajı’na çevirebilirsiniz. Denizi aratmayan eşsizlikteki bu muhteşem göl serinlemek için olduğu kadar su altındaki güzellikleri keşfetmek için de benzersizdir. 2020 yılında Beyşehir Belediyesi öncülüğünde başlatılan proje kapsamında gölün önümüzdeki günlerde su altı dalışlarına açılması planlanıyor. Gölde ayrıca rüzgâr sörfü ve olta balıkçılığı aktivitelerine, tekne turlarına katılma imkanı da bulunuyor. Beyşehir’in güzide parklarından Yakamanastır Tabiat Parkı yemyeşil bir doğanın kucağında temiz havanın keyfini sürmek için cazip bir duraktır. Doğa yürüyüşü ve bisiklet parkurlarının yanı sıra burada adrenalin tutkunları için geniş bir yamaç paraşütü pisti de bulunuyor.  Beyşehir Gölü’ne tepeden bakan bu alan ziyaretçilerine doyumsuz güzellikteki göl manzarası eşliğinde uçuş imkânı sağlıyor. Yamaç paraşütü için ayrıca daha merkezi bir konumda bulunan Selçuklu ilçesindeki Takkeli Dağı Yamaç Paraşütü Pisti’ni veya Akşehir Belediyesi bünyesinde bulunan, Sultan Dağları’nın eteklerindeki yamaç paraşütü pistini ziyaret edebilirsiniz. Akşehir Belediyesi tarafından düzenlenen kış şenliklerinde ayrıca pek çok yarışma ve etkinlik de düzenleniyor. Adrenalinin doruklarına ulaşmak isteyenler vakit kaybetmeden soluğu Kurucuova Beldesi sınırları içindeki Dedegöl Dağları’nın eteklerinde alabilirler. Anamas Yaylaları olarak da bilinen bu bölge kaya ve dağ tırmanışları için oldukça elverişli bir ortam sağlıyor. Anamas ziyaretinizde ayrıca dağ bisikleti, jeep-safari turu, doğa yürüyüşü, yamaç paraşütü gibi farklı aktivitelere yer verebilirsiniz. Konya şehir merkezindeki en yüksek dağ olan Loras Dağı zirve tırmanışları için en çok rağbet gören bir başka duraktır. Sıra dışı manastır ve antik kalıntılarla dolu olan bu bölgede tırmanma aktivitelerine bir süre ara verip, civardaki tarihi güzellikleri keşfetmek için de fazlasıyla nedeniniz bulunuyor. Adrenalinin limitlerini zorlamak için tercih edilecek bir diğer Konya rotası ise Taşkent ilçesindeki Kıble Kayası Mevkiisi’dir. Kıble Kayası ormanlık ve düz bir araziye sahip olduğundan doğa yürüyüşleri ve kamp yapmak için oldukça müsaittir. Mevcut durumu itibariyle yüksek bir tırmanış alanına ve zor bir parkura sahip olduğundan tırmanma sporuna ilgi duyanlar için birebirdir. Burada doğal ortamda ağaç kokuları arasında tırmanış, yürüyüş vb. sporları yapmak ve stres atmak mümkündür. Doğa yürüyüşünüzü turistik bir gezintiye çevirmek isterseniz Derebucak ilçesindeki Çamlık Mağaraları ve Meram ilçesindeki Kilistra Antik Kenti, Çumra’daki Çatalhöyük Antik Kenti ve Selçuklu’daki Sille Antik Kenti’ni ziyaret edebilirsiniz. Buralarda yapacağınız yürüyüşler sırasında Anadolu’nun korunaklı kucağında saklı kalmış tarihin sırlarını keşfedebilir; şapeller, sarnıçlar, tapınaklar ve birçok esrarengiz antik yapıyı yerinde görebilirsiniz. Son yıllarda özellikle yayla ve doğa turizmiyle rağbet gören Hadim’de dağcılar, doğaseverler, fotoğraf tutkunları ve doğa sporcuları tarafından ziyaret edilecek pek çok alan bulunuyor. Bu alanların başında ise Bolat Yaylası, Astra Antik Kenti, Yerköprü Şelalesi, Dülgerler Mağarası, Gürleyen Kanyonu geliyor. Birbiri ardına sıralanan bu cazibe merkezleri el değmemiş doğası, tertemiz havasıyla doğaseverleri kendine hayran bırakıyor. Yarma Vadisi, Mavi Boğaz ve Çomaklar Kanyonu gibi doğal güzellikleri ile Akören ilçesi spor etkinlikleri için tercih edilecek bir başka cazip rotadır. Konya’nın Ihlarası olarak adlandırılan bu bölgede rafting, trekking, dağcılık, foto safari, kampçılık ve karavancılık, olta balıkçılığı, offroad, jeep safari, dağ bisikleti, atlı doğa yürüyüşü gibi etkinliklere katılabilirsiniz. Geniş düzlüklere sahip bir alana kurulu olması nedeniyle Konya bisiklet sporu için de oldukça elverişli alanlara sahiptir. Konya’nın tarihi ve turistik birçok bölgesine şehrin dört bir tarafında bulunan bisiklet kiralama merkezlerinden bisiklet kiralayarak ulaşabilirsiniz. 22 Haziran 1922’de Konya Gençlerbirliği isminde yeni bir futbol takımı kurulmuştur. Konya Gençlerbirliği, daha sonra kurulan Meramspor, Selçukspor ve Çimentospor ile 1965 yılında birleşerek Konyaspor adını almış ve 1. Lig'de profesyonel olarak mücadele etmeye başlamıştır. Konyaspor, Konya Ligi şampiyonu olarak Türk futbol tarihindeki ilk ülke şampiyonası olan 1924 Türkiye Futbol Şampiyonası'na katılmıştır. Kulüp 1981 yılına kadar siyah-beyaz renklerde mücadele ederken, 1980-81 sezonu sonunda rakibi Konya İdman Yurdu'yla birleşmiş ve renkleri de rakibinin renkleri olan yeşil-beyaz olarak belirlenmiştir. Birleşim tarihi olan 1981 yılı, birleşimden dolayı Konyaspor'un kuruluş yılı olarak kararlaştırılsa da 2016 yılı Eylül ayında yapılan Genel Kurul toplantısı kararı ile Konyaspor'un kuruluş yılı 1922 olarak değiştirilmiş ve kulüp armasına da işlenmiştir. Konyaspor 2016-17 sezonunda Türkiye Kupasını, 2017-18 sezonunda ise Türkiye Süper Kupasını kazanmıştır. Anadolu Selçuklu Devleti'ne başkentlik yapan Konya'nın bu takımının sembolü, Anadolu Selçuklu Devleti'nin de simgesi olan çift başlı kartaldır. Logoda bulunan çift başlı kartalın altında, tarımın simgesi olan buğday başakları ilin tahıl tarımında önde gelen illerden biri olduğunu göstermektedir. Konyaspor'un basketbol şubesinin geçmişi 1950'li yıllara dek uzanmaktadır. Zaman içerisinde birkaç kez kapanan ve tekrar açılan şube son olarak 27 Şubat 2019 tarihinde Selçuklu Belediyespor'a bağlı şubenin devralınmasıyla faaliyete geçmiştir. 2018-19 sezonunda Türkiye Basketbol Ligi'nde yer alan Konyaspor, 2020-21 sezonunda ligi 3. sırada tamamlamıştır."
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/circleImageView3"></TextView>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+
+    </LinearLayout>
+</layout>

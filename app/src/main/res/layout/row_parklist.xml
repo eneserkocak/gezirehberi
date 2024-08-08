@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="park"
+            type="com.eneserkocak.gezirehberi.model.Park" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:background="@drawable/ilac_row_bg"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+
+
+
+                        <ImageView
+                            android:id="@+id/parkListImage"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+
+                            ></ImageView>
+
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/parkAdi"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:text="@{park.yerAdi}"
+                    android:textSize="16sp"
+
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+
+                    ></TextView>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/share_location_24">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginStart="1dp"
+                        android:layout_gravity="center_vertical"
+                        android:text="@{park.ilce}">
+
+
+                    </TextView>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/saatt">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginStart="1dp"
+                        android:layout_gravity="center_vertical"
+                        android:text="@{park.open}">
+
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginStart="2dp"
+                        android:layout_gravity="center_vertical"
+                        android:text="@{park.close}"
+                        android:textColor="#A81207"
+                        >
+
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,17 @@
+package com.eneserkocak.gezirehberi.modelWeather
+
+data class WeatherModel(
+ val coord: Coord,
+ val weather: List<WeatherX>,
+ val base: String,
+ val main: Main,
+ val visibility: Int,
+ val wind: Wind,
+ val clouds: Clouds,
+ val dt: Int,
+ val sys: Sys,
+ val timezone: Int,
+ val id: Int,
+ val name: String,
+ val cod: Int
+)
