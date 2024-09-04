@@ -1,8 +1,11 @@
 package com.eneserkocak.gezirehberi.viewModel
 
 import android.content.Context
+import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.bumptech.glide.load.HttpException
 import com.eneserkocak.gezirehberi.model.*
 import com.eneserkocak.gezirehberi.service.WeatherAPIService
 import com.eneserkocak.gezirehberi.modelWeather.WeatherModel
@@ -12,8 +15,12 @@ import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.observers.DisposableSingleObserver
 import io.reactivex.schedulers.Schedulers
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 class AppViewModel: ViewModel() {
+
 
 
     val parks = MutableLiveData<List<Park>>()
@@ -203,7 +210,7 @@ class AppViewModel: ViewModel() {
     //WEATHER
 
     private val weatherAPIService= WeatherAPIService()
-    private val disposable = CompositeDisposable()
+   // private val disposable = CompositeDisposable()
 
     val weather_data= MutableLiveData<WeatherModel>()
     val weather_error=MutableLiveData<Boolean>()
@@ -215,7 +222,7 @@ class AppViewModel: ViewModel() {
 
     }
 
-    private fun getDataFromAPI(cityName:String) {
+   /* private fun getDataFromAPI(cityName:String) {
 
         weather_load.value=true
         disposable.add(
@@ -238,8 +245,62 @@ class AppViewModel: ViewModel() {
                 })
 
         )
+    }*/
+
+
+    private val compositeDisposable = CompositeDisposable()
+
+    private fun getDataFromAPI(cityName: String) {
+        weather_load.value = true
+        val disposable = weatherAPIService.getDataService(cityName)
+            .subscribeOn(Schedulers.io())
+            .observeOn(AndroidSchedulers.mainThread())
+            .subscribeWith(object : DisposableSingleObserver<WeatherModel>() {
+                override fun onSuccess(t: WeatherModel) {
+                    weather_data.value = t
+                    weather_error.value = false
+                    weather_load.value = false
+                }
+
+                override fun onError(e: Throwable) {
+                    weather_error.value = true
+                    weather_load.value = false
+
+                    Log.e("API Error", "Error fetching data", e)
+                }
+            })
+
+        compositeDisposable.add(disposable)
     }
 
+
+    override fun onCleared() {
+        super.onCleared()
+        compositeDisposable.clear()
+    }
+
+   /* fun getDataFromAPI(cityName: String) {
+        weather_load.value = true
+        viewModelScope.launch {
+            try {
+                val response = withContext(Dispatchers.IO) {
+                    weatherAPIService.getDataService(cityName)
+                }
+                weather_data.value = response
+                weather_error.value = false
+            } catch (e: HttpException) {
+                weather_error.value = true
+                // Hata mesajını loglayabilirsiniz
+                Log.e("WeatherAPI", "HTTP error fetching data for city: $cityName", e)
+            } catch (e: Throwable) {
+                weather_error.value = true
+                // Diğer hata türleri için genel bir işlem
+                Log.e("WeatherAPI", "Error fetching data for city: $cityName", e)
+            } finally {
+                weather_load.value = false
+            }
+        }
+    }*/
 
 
 }

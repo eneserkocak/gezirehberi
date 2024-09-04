@@ -18,22 +18,26 @@
         tools:context=".viewMain.EntryFragment">
 
 
-        <ImageView
+        <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/fotoImageV"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
             android:adjustViewBounds="true"
+
+            app:shapeAppearanceOverlay="@style/roundimageview"
             app:layout_constraintBottom_toTopOf="@+id/slaytText"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@drawable/a" />
+            app:srcCompat="@drawable/p1" />
 
         <TextView
             android:id="@+id/slaytText"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="30dp"
+            android:layout_marginBottom="15dp"
             android:ellipsize="marquee"
             android:fadingEdge="horizontal"
             android:marqueeRepeatLimit="marquee_forever"
@@ -156,7 +160,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.69"
+            app:layout_constraintVertical_bias="0.75"
             app:srcCompat="@drawable/logo2" />
 
         <ImageView

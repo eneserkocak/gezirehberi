@@ -22,6 +22,30 @@
         <item name="android:windowBackground">@color/white</item>
     </style>
 
+    <style name="roundimageview" parent="">
+
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">30dp</item>
+        <item name="color">#FFFFFF</item>
+
+
+
+
+    </style>
+
+    <style name="rowimageview" parent="">
+
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">15dp</item>
+        <item name="color">#FFFFFF</item>
+
+
+
+
+    </style>
+
+
+
 
 
 </resources>
