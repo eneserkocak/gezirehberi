@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'androidx.navigation.safeargs.kotlin'
 apply plugin: 'kotlin-kapt'
-
 apply plugin: 'kotlin-parcelize'
 
 apply plugin: 'com.google.gms.google-services'
@@ -11,12 +10,12 @@ apply plugin: 'com.google.firebase.crashlytics'
 
 android {
     namespace 'com.eneserkocak.gezirehberi'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.eneserkocak.gezirehberi.view"
         minSdk 23
-        targetSdk 33
+        targetSdk 34
         versionCode 2
         versionName "1.1"
 
